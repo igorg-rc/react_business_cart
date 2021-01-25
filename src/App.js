@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Navigation from './components/Navigation/Navigation';
+import Services_slider from './components/Services_slider/Services_slider';
+import Whoweare from './components/Whoweare/Whoweare';
+import Technologies from './components/Technologies/Technologies';
+import Industries from './components/Industries/Industries';
+
+import { Button } from 'react-bootstrap';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Services_slider />
+      <Whoweare />
+      <Technologies />
+      <Industries />
     </div>
   );
 }
