@@ -28,7 +28,7 @@ export default function ContactUs() {
               aria-hidden="false" 
               tabindex="0">
             </iframe>
-            <p className="mt-2 lead text-justify">Address:Soborny Ave 1, Zaporzhzhya, Ukraine.</p>
+            <p className="mt-2 lead text-justify">Address: Soborny Ave 1, Zaporzhzhya, Ukraine.</p>
             <p className="mt-2 lead text-justify">email: bonfire_apps@gmail.com.</p>
             <p className="mt-2 lead text-justify">Skype: Bonfire Apps.</p>
             <p className="mt-2 lead text-justify">Telegram: Bonfire Apps.</p>
