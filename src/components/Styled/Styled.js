@@ -1,46 +1,11 @@
-import React, { useState } from 'react'
-import { Containerm, Button, Fade, Container } from 'react-bootstrap'
+import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
-export default function Technologies() {
-  const [openLang, setOpenLang] = useState(true);
-  const [openFrame, setOpenFrame] = useState(false);
-  const [openDb, setOpenDb] = useState(false);
-
+export default function Styled() {
   return (
-    <>
-    <Button
-      onClick={() => setOpenLang(!openLang)}
-      aria-controls="example-fade-text"
-      aria-expanded={openLang}
-    >
-      Toggle Languages
-    </Button>
-    <Fade in={openLang}>
-      <div id="example-fade-text">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-        labore wes anderson cred nesciunt sapiente ea proident.
-      </div>
-    </Fade>
-
-    <Button
-      onClick={() => setOpenDb(!openDb)}
-      aria-controls="example-fade-text"
-      aria-expanded={openDb}
-    >
-      Toggle Frameworks
-    </Button>
-    <Fade in={openDb}>
-      <div id="example-fade-text">
-      If you're noticing choppy animations, and the component that's being 
-      collapsed has non-zero margin or padding, try wrapping the contents of your 
-      inside a node with no margin or padding, like the in the example below. 
-      </div>
-    </Fade>
-
-  
-  
-    <Container>
+    <div>
+      
       <h1 className="display-3">Technologies</h1>
       <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
       which provides the process of development, testing and deployment of digital solutions for business. Our goal 
@@ -63,7 +28,35 @@ export default function Technologies() {
       <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
       which provides the process of development, testing and deployment of digital solutions for business. Our goal 
       is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-    </Container>
-    </>
+      <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
+        <h1>
+          React Animate On Scroll
+        </h1>
+        <h2>
+          Using:
+        </h2>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn='bounceInRight'
+        animateOut='bounceOutLeft'>
+        <h2>
+          <a href='https://daneden.github.io/animate.css/'>
+            Animate.css
+          </a>
+        </h2>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn='wobble'
+        initiallyVisible={true}>
+        <h1>
+          initiallyVisible
+        </h1>
+      </ScrollAnimation>
+      <ScrollAnimation delay={4000}
+        animateIn='tada'
+        initiallyVisible={true}>
+        <h1>
+          delay
+        </h1>
+      </ScrollAnimation>
+    </div>
   )
 }
