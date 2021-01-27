@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+// import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Navigation from './components/Navigation/Navigation';
 import Services_slider from './components/Services_slider/Services_slider';
@@ -12,7 +14,6 @@ import Styled from './components/Styled/Styled';
 import Button from './components/Button/Button';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import "animate.css/animate.min.css";
 
 
 function App() {
@@ -24,7 +25,6 @@ function App() {
       <Technologies />
       <Industries />
       <ContactUs />
-      <Button />
     </div>
   );
 }

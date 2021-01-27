@@ -1,20 +1,23 @@
 import React from 'react'
 import { Container, Col, Row, InputGroup, FormControl, Button } from 'react-bootstrap'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export default function ContactUs() {
   return (
     <div id="contactUs" className="bg-primary text-white">
       <div className="container">
+        <ScrollAnimation animateIn="fadeIn">
         <h1 className="display-3">Contact Us</h1>
         <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
         which provides the process of development, testing and deployment of digital solutions for business. Our goal 
         is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-        
+        </ScrollAnimation>
       </div>
 
       <div className="container"> 
         <Row>
           <Col lg={6} md={12}>
+            <ScrollAnimation animateIn='bounceInLeft' animateOut='bounceOutright'>
             <h2 class="display-4">Location</h2>
             <iframe 
               title="locationMap"
@@ -29,8 +32,10 @@ export default function ContactUs() {
             <p className="mt-2 lead text-justify">email: bonfire_apps@gmail.com.</p>
             <p className="mt-2 lead text-justify">Skype: Bonfire Apps.</p>
             <p className="mt-2 lead text-justify">Telegram: Bonfire Apps.</p>
+            </ScrollAnimation>
           </Col>
           <Col lg={6} md={12}>
+            <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
             <p className="display-4">Contact form</p>
             <div>
               <InputGroup className="mb-3">
@@ -52,6 +57,7 @@ export default function ContactUs() {
                 <Button variant="success" size="lg" block>Send</Button>
               </InputGroup>
             </div>
+            </ScrollAnimation>
           </Col>
         </Row>
       </div> 

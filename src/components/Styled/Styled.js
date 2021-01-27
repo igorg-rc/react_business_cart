@@ -1,11 +1,17 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
+import 'animate.css/animate.min.css';
+
 
 export default function Styled() {
   return (
     <div>
-      
+      <ScrollAnimation animateIn='wobble'
+        initiallyVisible={true}>
+        <h1>
+          initiallyVisible
+        </h1>
+      </ScrollAnimation>
       <h1 className="display-3">Technologies</h1>
       <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
       which provides the process of development, testing and deployment of digital solutions for business. Our goal 

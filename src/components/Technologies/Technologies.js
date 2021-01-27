@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import { Containerm, Button, Fade, Container } from 'react-bootstrap'
+import { Button, Fade, Container } from 'react-bootstrap'
+import ScrollAnimation from 'react-animate-on-scroll'
+import { Parallax } from 'react-parallax';
 
 export default function Technologies() {
   const [openLang, setOpenLang] = useState(true);
@@ -8,7 +10,7 @@ export default function Technologies() {
 
   return (
     <>
-    <Button
+    {/* <Button
       onClick={() => setOpenLang(!openLang)}
       aria-controls="example-fade-text"
       aria-expanded={openLang}
@@ -36,34 +38,51 @@ export default function Technologies() {
       collapsed has non-zero margin or padding, try wrapping the contents of your 
       inside a node with no margin or padding, like the in the example below. 
       </div>
-    </Fade>
+    </Fade> */}
 
   
   
     <Container>
-      <h1 className="display-3">Technologies</h1>
-      <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-      which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-      is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-      <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-      which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-      is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-      <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-      which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-      is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-      <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-      which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-      is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-      <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-      which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-      is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-      <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-      which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-      is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
-      <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-      which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-      is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+      <ScrollAnimation animateIn="fadeIn">
+        <h1 className="display-3">Technologies</h1>
+        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
+        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
+        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
+        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
+        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
+        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
+        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
+        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
+        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
+        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
+        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
+        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
+        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
+        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
+        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+      </ScrollAnimation>
     </Container>
+    <Parallax
+      bgImage={'https://picsum.photos/1920/1200'}
+      bgImageAlt="the dog"
+      strength={200}
+    >
+      Put some text content here
+      or even an empty div with fixed dimensions
+      to have a height for the parallax.
+      <div style={{ height: '400px' }} />
+    </Parallax>
+    <Parallax>
+      <div className="text-white bg-success d-flex justify-content-center">
+        <h2 className="display-3 mt-4 mb-5">Section Divider</h2>        
+      </div>
+    </Parallax>
     </>
   )
 }
