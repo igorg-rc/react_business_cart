@@ -27,6 +27,14 @@
   opacity: 1;
 }
 
+.list-group-item {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  margin-bottom: -10px;
+}
+
 /* @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -42,9 +50,10 @@
   }
 }
 
-@media (max-width: 500px) {
-  h2 .block-title {
+@media (max-width: 400px) {
+  .display-4 {
     font-size: 10px;
+    color: blue;
   }
 }
 

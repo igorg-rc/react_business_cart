@@ -38,6 +38,19 @@ export default function Navigation() {
           </Link>
 
           <Link
+            href="#technologies"
+            to="technologies"
+            activeClass="active"
+            className="nav-link"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Technologies
+          </Link>
+
+          <Link
             href="#contactUs"
             to="contactUs"
             activeClass="active"

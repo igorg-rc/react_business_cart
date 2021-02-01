@@ -4,17 +4,15 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 export default function ContactUs() {
   return (
-    <div id="contactUs" className="bg-primary text-white">
+    <div id="contactUs">
       <div className="container">
         <ScrollAnimation animateIn="fadeIn">
         <h1 className="display-3">Contact Us</h1>
-        <p className="mt-2 lead text-justify">We are web development and IT consultancy company 
-        which provides the process of development, testing and deployment of digital solutions for business. Our goal 
-        is to clearly see the clients goals and to plan, build and deploy in real life application for their needs.</p>
+        <p className="mt-2 lead text-justify">We are located in Zaporizhia, Ukraine. You can easily contact us via email or prefered messanger.</p>
         </ScrollAnimation>
       </div>
 
-      <div className="container"> 
+      <div className="container bg-primary text-white"> 
         <Row>
           <Col lg={6} md={12}>
             <ScrollAnimation animateIn='bounceInLeft' animateOut='bounceOutright'>

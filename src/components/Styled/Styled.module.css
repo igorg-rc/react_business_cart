@@ -20,13 +20,18 @@
 }
 
 .Overlay {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 378px) {
+  .Item_1,
+  .Item_2,
+  .Item_3 {
+    background: rgba(0, 0, 0, 0.3);
+  }
 }
