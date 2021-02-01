@@ -9,7 +9,7 @@ export default function IT_support() {
   return (
     <div id="it_support">
       <Parallax
-        bgImage={'https://picsum.photos/1920/750'}
+        bgImage={'https://picsum.photos/1920/850'}
         bgImageAlt="the dog"
         strength={300}
         id="overlayBG"

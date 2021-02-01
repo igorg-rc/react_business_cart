@@ -24,10 +24,12 @@ export default function Web_development() {
           <div style={{ backgroundColor: 'rgba(0,0,0, 0.8)'}} className="d-flex justify-content-center">
             <Container id="overlayText">
               <ScrollAnimation animateIn="fadeIn" duration="3">
-                <p className="lead text-white text-justify mx-1 pt-5">
-                The development process includes all possible necessary steps to be implemented within the project.</p>  
-                
-                <p className="lead text-justify pb-5">
+              <p className="lead text-white text-justify mx-1 pt-5">Among the tasks performed by us are development, improvement and implementation of new software tools and 
+                  related software for a specific area of activity and providing basic solutions for information security.</p>
+                <p className="lead text-white text-justify mx-1 pt-1">
+                The development process includes all possible necessary steps to be implemented within the project:</p> 
+                 
+                <p className="lead text-justify pb-1">
                 <ul className="list-group">
                   <li className={ "list-group-item bg-transparent".concat(" ", classes.ListItem)}>Creating a site design concept;</li>
                   <li className={ "list-group-item bg-transparent".concat(" ", classes.ListItem)}>Creating page layouts;</li>
@@ -41,6 +43,10 @@ export default function Web_development() {
                   <li className={ "list-group-item bg-transparent".concat(" ", classes.ListItem)}>SEO-Optimization.</li>
                 </ul>
                 </p>
+
+                <p className="lead text-white text-justify pb-5">We perform a full range of services, initial logo development, corporate identity, 
+                development of websites, mobile applications or mobile versions of the site, completion of the SEO project, 
+                as well as support and modernization of the project for a long time.</p>
               </ScrollAnimation>
             </Container> 
           </div>
