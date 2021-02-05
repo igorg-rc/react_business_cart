@@ -1,6 +1,124 @@
 .App {
   text-align: center;
-  height: 5000px;
+  font-family: "Roboto";
+}
+
+p {
+  text-align: justify;
+}
+
+.lead {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+/* .holder {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.holder img {
+  vertical-align: middle;
+}
+
+.holder #navigation {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+} */
+
+nav.main-nav {
+  background: rgba(0, 0, 0, 0);
+  border-bottom: none;
+  box-shadow: none;
+}
+
+ul#mobile-demo li a {
+  color: #26a69a;
+  position: relative;
+}
+ul#mobile-demo li a:hover {
+  color: #e0f2f1;
+}
+
+ul#mobile-demo li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+ul#mobile-demo li a:hover:before {
+  visibility: visible;
+  transform: scaleX(0.3);
+}
+
+/* ul#mobile-demo li::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 1px;
+  background: #26a69a;
+  transition: width 0.3s;
+}
+
+ul#mobile-demo li:hover::after {
+  width: 80%;
+  background-color: #c6c7af;
+  transition: width 0.3s;
+} */
+
+/* Contact us - Map */
+iframe {
+  height: 50rem;
+  width: 100%;
+  background-color: #c6c7af;
+}
+
+.input-field input[type="text"],
+.input-field textarea {
+  border-bottom: 1px solid #b2dfdb !important;
+}
+
+.input-field input[type="text"]:focus + label {
+  color: #e0f2f1 !important;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+  border-bottom: 1px solid #e0f2f1 !important;
+  box-shadow: 0 1px 1px 0 #e0f2f1 !important;
+}
+
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field .prefix.active {
+  color: #000;
+}
+form a.btn {
+  color: #b2dfdb;
+  border: 2px solid #b2dfdb;
+  box-shadow: none !important;
+  transition: 0.7s;
+}
+
+form a.btn:hover {
+  background-color: #e0f2f1 !important;
+  color: #4db6ac !important;
 }
 
 .App-logo {
@@ -8,7 +126,7 @@
   pointer-events: none;
 }
 
-.scrollTop {
+/* .scrollTop {
   position: fixed;
   width: 100%;
   bottom: 10px;
@@ -33,7 +151,7 @@
   border-radius: 0;
   color: #fff;
   margin-bottom: -10px;
-}
+} */
 
 /* @keyframes fadeIn {
   0% {

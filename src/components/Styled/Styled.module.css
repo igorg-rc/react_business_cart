@@ -1,37 +1,15 @@
-.Item_1 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(/src/img/slider/1_.jpg);
-}
-
-.Item_2 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(/src/img/slider/2_.jpg);
-}
-
-.Item_3 {
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(/src/img/slider/3_.jpg);
-}
-
-.Overlay {
+/* .Overlay {
   height: 100vh;
   width: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
-@media (max-width: 378px) {
-  .Item_1,
-  .Item_2,
-  .Item_3 {
-    background: rgba(0, 0, 0, 0.3);
-  }
+.Background {
+  background-image: url(/src/img/slider/1_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }

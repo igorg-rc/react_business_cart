@@ -1,0 +1,26 @@
+.Holder {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Holder {
+  position: absolute;
+  z-index: 999999999;
+}
+
+.ImgContainer {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: inherit;
+}
+
+.Img {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

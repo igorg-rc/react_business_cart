@@ -1,40 +1,38 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import { Container, Card, Row, Col } from 'react-bootstrap'
 import ScrollAnimation from 'react-animate-on-scroll' 
 
+import classes from './Industries.module.css'
 import { industries } from './IndustriesData'
 
 export default function Industries() {
   
   const industriesList = industries.map(industry => {
-    return  <Col xl={4} md={6} sm={12} key={industry.title}>
-              <Card className="bg-dark text-white mb-4">
-                <Card.Img src={industry.imgUrl} alt={industry.title} />
-                <Card.ImgOverlay>
-                  <Card.Title>
-                    <h4>{industry.title}</h4>
-                  </Card.Title>
-                  <Card.Text>
-                    <p className="lead">
-                      {industry.body}
-                    </p>
-                  </Card.Text>
-                </Card.ImgOverlay>
-              </Card>
-            </Col>
+    return  <div className="col s12 m6 l4">
+              <div className="card blue-grey darken-1" style={{ background: 'url(industry.imgUrl)' }}>
+                <div className={"card-content white-text".concat('', classes.Holder) }>
+                  <div className={classes.ImgContainer}>
+                    <img src={industry.imgUrl} alt={industry.title} className={classes.Img} /> 
+                  </div>
+                  
+                  <span className="card-title">{industry.title}</span>
+                  <p>{industry.body}</p>
+                </div>
+              </div>
+            </div>
+   
   });
 
   return (
     <div id="industries">
-      <Container>
+      <div className="container">
         <ScrollAnimation animateIn="fadeIn">
           <h3 className="display-3 my-3">Industries</h3>
-          <Row>
+          <div className="row">
             {industriesList}
-          </Row>
+          </div>
           </ScrollAnimation>
-      </Container>
+      </div>
       
     </div>
   )
