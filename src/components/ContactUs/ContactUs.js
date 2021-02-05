@@ -34,7 +34,7 @@ export default function ContactUs() {
               <textarea id="message" className="teal-text text-lighten-4 materialize-textarea"></textarea>
               <label for="message" className="teal-text text-lighten-4">Message</label>
             </div>
-            <a className="btn button teal teal-text text-lighten-4 left"><span>Hover</span><i className="material-icons right">send</i></a>
+            <a className="btn button teal teal-text text-lighten-4 left"><span>Send</span><i className="material-icons right">send</i></a>
           </form>
         </div>
         

@@ -3,6 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import { Parallax } from 'react-parallax'
 import M from 'materialize-css/dist/js/materialize.min.js'
 
+import { technologies } from './TechnologiesData';
 import classes from './Technologies.module.css'
 
 export default class Technologies extends Component {
@@ -13,6 +14,27 @@ export default class Technologies extends Component {
   }
   
   render() {
+    const frontendList = technologies.frontend.map(technology => {
+      return  <div className="col s6 m4 center-align">
+                <img src={technology.imgUrl} alt={technology.title} />
+                <h4>{technology.title}</h4>
+              </div>
+    });
+
+    const backendList = technologies.backend.map(technology => {
+      return  <div className="col s6 m4 center-align">
+                <img src={technology.imgUrl} alt={technology.title} />
+                <h4>{technology.title}</h4>
+              </div>
+    });
+
+    const toolsList = technologies.tools.map(technology => {
+      return  <div className="col s6 m4 center-align">
+                <img src={technology.imgUrl} alt={technology.title} />
+                <h4>{technology.title}</h4>
+              </div>
+    });
+
     return (
       <div id="technologies" className="grey darken-4 white-text">
         <div className="container">
@@ -26,63 +48,19 @@ export default class Technologies extends Component {
             </div>
             <div id="test1" style={{ paddingTop: '20px' }}>
               <div className="row">
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/color/144/000000/javascript.png"/>
-                  <h4>Javascript</h4>
-                </div>
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
-                  <h4>React js</h4>
-                </div>
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/color/144/000000/material-ui.png"/>
-                  <h4>Material UI</h4>
-                </div>
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/color/144/000000/bootstrap.png"/>
-                  <h4 className="text-white">Bootstrap</h4>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
-                  <h4>React js</h4>
-                </div>
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
-                  <h4>React js</h4>
-                </div>
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
-                  <h4>React js</h4>
-                </div>
-                <div className="col s12 m6 l3 center-align">
-                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
-                  <h4>React js</h4>
-                </div>
+                {frontendList}
               </div>
             </div>
             <div id="test2" class="col s12">
-            <div className="row">
-              <div className="col s12 m6 l3 center-align">
-                <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
-                <h4>React js</h4>
-              </div>
-              <div className="col s12 m6 l3 center-align">
-              <img src="https://img.icons8.com/color/144/000000/material-ui.png"/>
-                <h4>React js</h4>
-              </div>
-              <div className="col s12 m6 l3 center-align">
-              <img src="https://img.icons8.com/color/144/000000/material-ui.png"/>
-                <h4>React js</h4>
-              </div>
-              <div className="col s12 m6 l3 center-align">
-                <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
-                <h4>React js</h4>
-              </div>
+              <div className="row">
+                {backendList}
               </div>
             </div>
-            <div id="test3" class="col s12">Test 3</div>
+            <div id="test3" class="col s12">
+              <div className="row">
+                {toolsList}
+              </div>
+            </div>
           </div>
         </div>
       </div>
