@@ -4,7 +4,7 @@ export const technologies = {
     {"title":"React js","imgUrl":"img/layout/icons/frontend/react-144.png"},
     {"title":"Material UI","imgUrl":"img/layout/icons/frontend/material-ui-144.png"},
     {"title":"Bootstrap","imgUrl":"img/layout/icons/frontend/bootstrap-144.png"},
-    {"title":"Javascript","imgUrl":"img/layout/icons/frontend/jquery-144.png"},
+    {"title":"jQuery","imgUrl":"img/layout/icons/frontend/jquery-144.png"},
     {"title":"React js","imgUrl":"img/layout/icons/frontend/sass-144.png"}
   ], 
   "backend": [
