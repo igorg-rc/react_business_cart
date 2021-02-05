@@ -13,7 +13,6 @@ export default function Industries() {
                 <div className={"card-content white-text"}>
                   <div className="card-image">
                     <img src={industry.imgUrl} alt={industry.title} /> 
-                    <span>Text on image</span>
                   </div> 
                   <h4>{industry.title}</h4>
                   <p className="lead">{industry.body}</p>
