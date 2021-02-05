@@ -8,7 +8,9 @@ export default function Styled () {
   return (
     <div className={classes.Background} style={{ padding: '70px' }}>
       <div className="container">
-        <div style={{ backgroundColor: 'red', width: '500px', height: '500px' }}>RED</div>
+        <div>
+          <h1 className="white-text text-lighten-4">Bonfire<span className="teal-text text-lighten-2">Apps</span></h1>
+        </div>
       </div>
     </div>
   );
