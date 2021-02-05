@@ -1,26 +1,17 @@
 .Holder {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.Holder {
-  position: absolute;
-  z-index: 999999999;
-}
-
-.ImgContainer {
-  height: 50vh;
   position: relative;
-  overflow: hidden;
-  padding-bottom: inherit;
+  text-align: center;
+  color: white;
+  padding-bottom: 5%;
 }
 
-.Img {
-  object-fit: cover;
+.ImgText {
   position: absolute;
-  height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
+  bottom: 20%;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }

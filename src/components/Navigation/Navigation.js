@@ -4,6 +4,7 @@ import { Container } from 'react-materialize'
 import M from 'materialize-css/dist/js/materialize.min.js'
 import classes from './Navigation.module.css'
 import bgImg from '../../img/slider/1_.jpg'
+import { ScrollAnimation } from 'react-animate-on-scroll'
 
 export default class Navigation extends Component {
   componentDidMount() {
@@ -39,8 +40,8 @@ export default class Navigation extends Component {
 
   render() {
     return (
+      
       <div className={classes.Holder}>
-        
         <div id="navigation">
           <div className="navbar-fixed">
             <nav className="main-nav">
@@ -152,6 +153,7 @@ export default class Navigation extends Component {
             </li>
           </ul> 
         </div>
+        
         <div className={classes.ImgContainer}>
           <img src={{bgImg}} className={classes.Img} />
         </div>

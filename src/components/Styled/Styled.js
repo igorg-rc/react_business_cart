@@ -9,7 +9,7 @@ export default function Styled () {
     <div className={classes.Background} style={{ padding: '70px' }}>
       <div className="container">
         <div>
-          <h1 className="white-text text-lighten-4">Bonfire<span className="teal-text text-lighten-2">Apps</span></h1>
+          <h1 className="white-text">Bonfire<span className="teal-text text-lighten-2">Apps</span></h1>
         </div>
       </div>
     </div>

@@ -35,7 +35,7 @@ export const industries = [
     imgUrl: 'img/layout/industries/real_estate_.jpg'
   },
   {
-    title: 'CRM & Enterprise Managment',
+    title: 'CRM & Managment',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
     imgUrl: 'img/layout/industries/CRM_EM_.jpg'
   }
