@@ -118,13 +118,34 @@ form a.btn {
 
 form a.btn:hover {
   background-color: #e0f2f1 !important;
-  color: #4db6ac !important;
+  color: #009688 !important;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+/* Technologies */
+.tabs .tab a {
+  color: #009688 !important;
+  font-weight: 900;
+  font-size: 30px !important;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+  background-color: transparent !important;
+  color: #80cbc4 !important;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+  background-color: transparent !important;
+  color: #fff !important;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+  background-color: #009688 !important;
+} /*Color of underline*/
 
 /* .scrollTop {
   position: fixed;

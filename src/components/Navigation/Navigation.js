@@ -40,7 +40,6 @@ export default class Navigation extends Component {
 
   render() {
     return (
-      
       <div className={classes.Holder}>
         <div id="navigation">
           <div className="navbar-fixed">

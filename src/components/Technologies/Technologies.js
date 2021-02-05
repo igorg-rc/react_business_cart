@@ -1,56 +1,99 @@
 import React, { Component } from 'react'
-import { Button, Container, Row, Col, Nav, Tab } from 'react-bootstrap'
 import ScrollAnimation from 'react-animate-on-scroll'
 import { Parallax } from 'react-parallax'
+import M from 'materialize-css/dist/js/materialize.min.js'
 
 import classes from './Technologies.module.css'
 
 export default class Technologies extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      body: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
-      imgUrl: 'img/layout/slider/1_.jpg',
-      animated: false
-    }
-  }
 
-
-  firstCategoryHandler = () => {
-    this.setState(prevState => {
-      return {
-        body: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
-        imgUrl: 'img/layout/slider/1_.jpg',
-        animated: !prevState.animated 
-      }
-    })
-  }
-
-  secondCategoryHandler = () => {
-    this.setState(prevState => {
-      return {
-        body: 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
-        imgUrl: 'img/layout/slider/2_.jpg',
-        animated: !prevState.animated 
-      }
-    })
-  }
-
-  thirdCategoryHandler = () => {
-    this.setState(prevState => {
-      return {
-        body: 'cccccccccccccccccccccccccccccccccccccccccccccccccccccc',
-        imgUrl: 'img/layout/slider/3_.jpg',
-        animated: !prevState.animated
-      }
-    })
+  componentDidMount() {
+    let el = document.querySelector(".tabs");
+    let instance = M.Tabs.init(el, {});
   }
   
   render() {
     return (
-      <div id="technologies">
-      <Container>
-      <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+      <div id="technologies" className="grey darken-4 white-text">
+        <div className="container">
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs grey darken-4 teal-text">
+                <li class="tab col s12 m4"><a href="#test1" className="active">Frondend</a></li>
+                <li class="tab col s12 m4"><a href="#test2">Backend</a></li>
+                <li class="tab col s12 m4"><a href="#test3">Tools</a></li>
+              </ul>
+            </div>
+            <div id="test1" style={{ paddingTop: '20px' }}>
+              <div className="row">
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/color/144/000000/javascript.png"/>
+                  <h4>Javascript</h4>
+                </div>
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
+                  <h4>React js</h4>
+                </div>
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/color/144/000000/material-ui.png"/>
+                  <h4>Material UI</h4>
+                </div>
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/color/144/000000/bootstrap.png"/>
+                  <h4 className="text-white">Bootstrap</h4>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
+                  <h4>React js</h4>
+                </div>
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
+                  <h4>React js</h4>
+                </div>
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
+                  <h4>React js</h4>
+                </div>
+                <div className="col s12 m6 l3 center-align">
+                  <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
+                  <h4>React js</h4>
+                </div>
+              </div>
+            </div>
+            <div id="test2" class="col s12">
+            <div className="row">
+              <div className="col s12 m6 l3 center-align">
+                <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
+                <h4>React js</h4>
+              </div>
+              <div className="col s12 m6 l3 center-align">
+              <img src="https://img.icons8.com/color/144/000000/material-ui.png"/>
+                <h4>React js</h4>
+              </div>
+              <div className="col s12 m6 l3 center-align">
+              <img src="https://img.icons8.com/color/144/000000/material-ui.png"/>
+                <h4>React js</h4>
+              </div>
+              <div className="col s12 m6 l3 center-align">
+                <img src="https://img.icons8.com/plasticine/144/000000/react.png"/>
+                <h4>React js</h4>
+              </div>
+              </div>
+            </div>
+            <div id="test3" class="col s12">Test 3</div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+
+
+/*
+<ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
           <h2 className="display-4 block-title my-5">Technologies</h2>
           
             <Tab.Container id="left-tabs-example" defaultActiveKey="languages">
@@ -94,7 +137,7 @@ export default class Technologies extends Component {
                     <Tab.Pane eventKey="languages">
                       <Row>
                         <Col>
-                          <img src="https://img.icons8.com/color/144/000000/html-5.png"/>
+                          <img src="https://img.icons8.com/color/100/000000/html-5.png"/>
                           <h3>HTML5</h3>
                         </Col>
                         <Col>
@@ -287,11 +330,4 @@ export default class Technologies extends Component {
           </Col>
         </Row>
         </ScrollAnimation>
-        
-          
-      </Container>
-      </div>
-    )
-  }
-  
-}
+*/

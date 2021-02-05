@@ -8,14 +8,15 @@ import { industries } from './IndustriesData'
 export default function Industries() {
   
   const industriesList = industries.map(industry => {
-    return  <div className="col s12 m6 l4 xl3">
-              <div className="card teal darken-1 z-depth-5">
+    return  <div className="col s12 l6">
+              <div className="card teal darken-1" style={{ background: 'url:({industry.imgUrl})' }}>
                 <div className={"card-content white-text"}>
-                  <div>
-                    <img src={industry.imgUrl} alt={industry.title} style={{ width: '100%' }} /> 
+                  <div className="card-image">
+                    <img src={industry.imgUrl} alt={industry.title} /> 
+                    <span>Text on image</span>
                   </div> 
-                  <span className="card-title">{industry.title}</span>
-                  <p>{industry.body}</p>
+                  <h4>{industry.title}</h4>
+                  <p className="lead">{industry.body}</p>
                 </div>
               </div>
             </div> 
