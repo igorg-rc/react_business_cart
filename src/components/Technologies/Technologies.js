@@ -39,21 +39,21 @@ export default class Technologies extends Component {
       <div id="technologies" className="grey darken-4 white-text">
         <div className="container">
             <ul class="tabs grey darken-4 teal-text row">
-              <li class="tab col s12 m4"><a href="#frontend" className="active">Frondend</a></li>
+              <li class="tab col s12 m4"><a href="#frontend">Frondend</a></li>
               <li class="tab col s12 m4"><a href="#backend">Backend</a></li>
               <li class="tab col s12 m4"><a href="#tools">Tools</a></li>
             </ul>
-            <div id="frontend" style={{ paddingTop: '20px' }}>
+            <div id="frontend" style={{ paddingTop: '30px' }}>
               <div className="row">
                 {frontendList}
               </div>
             </div>
-            <div id="backend" class="col s12">
+            <div id="backend" style={{ paddingTop: '30px' }}>
               <div className="row">
                 {backendList}
               </div>
             </div>
-            <div id="tools" class="col s12">
+            <div id="tools" style={{ paddingTop: '30px' }}>
               <div className="row">
                 {toolsList}
               </div>
