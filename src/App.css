@@ -64,22 +64,6 @@ ul#mobile-demo li a:hover:before {
   transform: scaleX(0.3);
 }
 
-/* ul#mobile-demo li::after {
-  content: "";
-  display: block;
-  width: 10%;
-  height: 1px;
-  background: #26a69a;
-  transition: width 0.3s;
-}
-
-ul#mobile-demo li:hover::after {
-  width: 80%;
-  background-color: #c6c7af;
-  transition: width 0.3s;
-} */
-
-/* Contact us - Map */
 iframe {
   height: 50rem;
   width: 100%;
@@ -130,7 +114,7 @@ form a.btn:hover {
 .tabs .tab a {
   color: #009688 !important;
   font-weight: 900;
-  font-size: 30px !important;
+  font-size: 25px !important;
 } /*Black color to the text*/
 
 .tabs .tab a:hover {
@@ -189,10 +173,19 @@ form a.btn:hover {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .display-4 {
     font-size: 10px;
     color: blue;
+  }
+  .tabs .tab a {
+    font-size: 15px !important;
+  }
+  h5 {
+    font-size: 14px !important;
+  }
+  img.tech-img {
+    width: 90px !important;
   }
 }
 
