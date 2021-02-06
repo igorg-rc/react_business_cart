@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Col, Row, Form, TextInput, Textarea } from 'react-materialize'
 import ScrollAnimation from 'react-animate-on-scroll'
 import classes from './ContactUs.module.css'
+import img from '../../img/dbs.png'
 
 export default function ContactUs() {
   return (
@@ -36,6 +37,14 @@ export default function ContactUs() {
             </div>
             <a className="btn button teal teal-text text-lighten-4 left"><span>Send</span><i className="material-icons right">send</i></a>
           </form>
+          <br /><br /><br />
+          <div className="grey darken-4 white-text">
+            <div className="valign-wrapper">
+            <img src={img} style={{ width: '50px' }} alt="image" />
+            <span className="teal-text" style={{ fontSize: '30px' }}>Mongo db</span>
+            </div>
+            <p className="lead">Database</p>
+          </div>
         </div>
         
         

@@ -32,7 +32,6 @@ export default function Industries() {
           </div>
           </ScrollAnimation>
       </div>
-      
     </div>
   )
 }
