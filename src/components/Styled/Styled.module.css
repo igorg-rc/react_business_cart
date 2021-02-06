@@ -8,8 +8,16 @@
 } */
 
 .Background {
-  background-image: url(/src/img/slider/index1.jpg);
+  /* background-image: url(/src/img/slider/index1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%; */
+  background: url(/src/img/slider/index1.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
 }

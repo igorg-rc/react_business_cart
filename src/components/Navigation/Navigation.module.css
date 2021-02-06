@@ -1,17 +1,10 @@
 .Holder {
-  background: url(/src/img/slider/index1.jpg) no-repeat center center fixed;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.Holder {
   position: absolute;
   z-index: 999999999;
 }
 
-.ImgContainer {
-  height: 50vh;
+/* .ImgContainer {
+  height: 100vh;
   position: relative;
   overflow: hidden;
   padding-bottom: inherit;
@@ -24,7 +17,7 @@
   width: 100%;
   top: 0;
   left: 0;
-}
+} */
 
 @media (min-width: 600px) {
   .ImgContainer {

@@ -12,11 +12,7 @@ export default class Navigation extends Component {
   document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelector('.sidenav');
     let instance = M.Sidenav.init(elems, {edge: 'right', outDuration: 500});
-    
-    // let collapseElems = document.querySelector('.collapse');
-    // let collapseInstances = M.Collapsible.init(collapseElems, {outDuration: 300});
   });
-
     
     window.addEventListener("scroll", this.handleScroll);
   }
@@ -28,21 +24,8 @@ export default class Navigation extends Component {
   handleScroll = () => {
     if (window.scrollY < 20) {
       document.querySelector(".main-nav").style.backgroundColor = "transparent";
-      
-    } else if (window.scrollY < 100) {
-      document.querySelector(".main-nav").style.backgroundColor = "#b2dfdb";
-    }
-
-    else if (window.scrollY < 200) {
-      document.querySelector(".main-nav").style.backgroundColor = "#80cbc4";
-    }
-
-    else if (window.scrollY < 300) {
-      document.querySelector(".main-nav").style.backgroundColor = "#4db6ac";
-    }
-    
-    else {
-      document.querySelector(".main-nav").style.backgroundColor = "#009688";
+    } else {
+      document.querySelector(".main-nav").style.backgroundColor = "#00796b";
     }
   };
 
@@ -161,9 +144,9 @@ export default class Navigation extends Component {
           </ul> 
         </div>
         
-        <div className={classes.ImgContainer}>
+        {/* <div className={classes.ImgContainer}>
           <img src={{bgImg}} className={classes.Img} />
-        </div>
+        </div> */}
       </div>
     )
   }
