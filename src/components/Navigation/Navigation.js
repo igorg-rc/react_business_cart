@@ -4,6 +4,7 @@ import M from 'materialize-css/dist/js/materialize.min.js'
 import { ScrollAnimation } from 'react-animate-on-scroll'
 
 import classes from './Navigation.module.css'
+import logo from '../../img/logo/index_2_title.png'
 
 export default class Navigation extends Component {
   componentDidMount() {
@@ -21,7 +22,7 @@ export default class Navigation extends Component {
   }
 
   handleScroll = () => {
-    if (window.scrollY < 900) {
+    if (window.scrollY < 30) {
       document.querySelector(".main-nav").style.backgroundColor = "transparent";
     } else {
       document.querySelector(".main-nav").style.backgroundColor = "#00796b";

@@ -3,7 +3,7 @@ import {FaArrowCircleUp} from 'react-icons/fa';
 import '../../../App.css';
 
 
-const ScrollButton = () =>{
+const ScrollButton = () => {
 
   const [showScroll, setShowScroll] = useState(false)
 

@@ -17,13 +17,13 @@ import ScrollButton from './components/UIutils/ScrollButton/ScrollButton';
 function App() {
   return (
     <div className="App">
-      {/* <ScrollButton /> */}
       <Navigation />
       <Styled />
       <Whoweare />
       <Industries />
       <ContactUs />
       <Technologies />
+      {/* <ScrollButton /> */}
       {/* <Services_slider />
       <Web_development />
       

@@ -24,15 +24,29 @@
   padding: 20vh 0;
 }
 
+.LogoImage {
+  width: 50px;
+}
+
+@media (max-width: 420px) {
+  .HelloBox h1 {
+    font-size: 2rem;
+  }
+
+  .HelloBox h5 {
+    font-size: 1.2rem;
+  }
+
+  .HelloBox i {
+    font-size: 2.2rem !important;
+  }
+
+  .LogoImage {
+    width: 35px;
+  }
+}
+
 .Background {
-  /* background-image: url(/src/img/slider/index1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%; */
   background: url(/src/img/slider/index2.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
