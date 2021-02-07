@@ -111,10 +111,14 @@ form a.btn:hover {
 }
 
 /* Technologies */
+#technologies {
+  padding: 50px 0;
+}
+
 .tabs .tab a {
   color: #009688 !important;
   font-weight: 900;
-  font-size: 25px !important;
+  font-size: 1.5rem !important;
 } /*Black color to the text*/
 
 .tabs .tab a:hover {
@@ -131,41 +135,19 @@ form a.btn:hover {
   background-color: #009688 !important;
 } /*Color of underline*/
 
-/* .scrollTop {
-  position: fixed;
-  width: 100%;
-  bottom: 10px;
-  right: -40%;
-  align-items: center;
-  height: 20px;
-  justify-content: center;
-  z-index: 1000;
-  cursor: pointer;
-  animation: fadeIn 0.3s;
-  transition: opacity 0.4s;
-  opacity: 0.5;
+.tech-list {
+  padding: 30px 0 !important;
 }
 
-.scrollTop:hover {
-  opacity: 1;
+.tech-block {
+  padding: 30px 30px !important;
 }
 
-.list-group-item {
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-  color: #fff;
-  margin-bottom: -10px;
-} */
-
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.5;
-  }
-} */
+img.tech-img {
+  width: 65px;
+  height: 65px;
+  padding: 2%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -173,20 +155,24 @@ form a.btn:hover {
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 550px) {
   .display-4 {
     font-size: 10px;
     color: blue;
   }
 
   .tabs .tab a {
-    font-size: 15px !important;
+    font-size: 0.9rem !important;
   }
   h5.tech-title {
-    font-size: 14px !important;
+    font-size: 1.1rem !important;
   }
   img.tech-img {
-    width: 90px !important;
+    width: 40px !important;
+    height: 40px;
+  }
+  .tech-list {
+    padding: 20px 0;
   }
 }
 
@@ -201,19 +187,6 @@ form a.btn:hover {
   color: white;
 }
 
-#technologies {
-  padding: 50px 0;
-}
-
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

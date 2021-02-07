@@ -15,30 +15,30 @@ export default class Technologies extends Component {
   
   render() {
     const frontendList = technologies.frontend.map(technology => {
-      return  <div className="col xs12 s6 m4 center-align">
+      return  <div className="col s6 m3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
-                <h5 className="tech-title">{technology.title}</h5>
+                <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const backendList = technologies.backend.map(technology => {
-      return  <div className="col xs12 s6 m4 center-align">
+      return  <div className="col s6 m3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
-                <h5 className="tech-title">{technology.title}</h5>
+                <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const toolsList = technologies.tools.map(technology => {
-      return  <div className="col xs12 s6 m4 center-align">
+      return  <div className="col s6 m3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
-                <h5 className="tech-title">{technology.title}</h5>
+                <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const apiList = technologies.api.map(technology => {
-      return  <div className="col xs12 s6 m4 center-align">
+      return  <div className="col s6 m3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
-                <h5 className="tech-title">{technology.title}</h5>
+                <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
@@ -46,27 +46,27 @@ export default class Technologies extends Component {
       <div id="technologies" className="grey darken-4 white-text">
         <div className="container">
             <ul class="tabs grey darken-4 teal-text row">
-              <li class="tab col s12 m3"><a href="#frontend">Frondend</a></li>
-              <li class="tab col s12 m3"><a href="#backend">Backend</a></li>
-              <li class="tab col s12 m3"><a href="#tools">Tools</a></li>
-              <li class="tab col s12 m3"><a href="#api">APi</a></li>
+              <li class="tab col s3"><a href="#frontend">Frondend</a></li>
+              <li class="tab col s3"><a href="#backend">Backend</a></li>
+              <li class="tab col s3"><a href="#tools">Tools</a></li>
+              <li class="tab col s3"><a href="#api">APi</a></li>
             </ul>
-            <div id="frontend" style={{ paddingTop: '30px' }}>
+            <div id="frontend" className="tech-list">
               <div className="row">
                 {frontendList}
               </div>
             </div>
-            <div id="backend" style={{ paddingTop: '30px' }}>
+            <div id="backend" className="tech-list">
               <div className="row">
                 {backendList}
               </div>
             </div>
-            <div id="tools" style={{ paddingTop: '30px' }}>
+            <div id="tools" className="tech-list">
               <div className="row">
                 {toolsList}
               </div>
             </div>
-            <div id="api" style={{ paddingTop: '30px' }}>
+            <div id="api" className="tech-list">
               <div className="row">
                 {apiList}
               </div>
