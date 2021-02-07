@@ -95,7 +95,7 @@ export default class Navigation extends Component {
             <li className="">
               <span className="hover hover-3"></span>
               <Link 
-                className="sidedrawer-link sidenav-close"
+                className="sidedrawer-link"
                 href="#aboutUs"
                 to="aboutUs"
                 spy={true}
@@ -108,7 +108,7 @@ export default class Navigation extends Component {
             <li>
             <span className="hover hover-3"></span>
               <Link 
-                className="sidedrawer-link sidenav-close" 
+                className="sidedrawer-link" 
                 href="#industries"
                 to="industries"
                 spy={true}
@@ -120,7 +120,7 @@ export default class Navigation extends Component {
             </li>
             <li>
               <Link 
-                className="sidedrawer-link sidenav-close" 
+                className="sidedrawer-link" 
                 href="#technologies"
                 to="technologies"
                 spy={true}
@@ -132,7 +132,7 @@ export default class Navigation extends Component {
             </li>
             <li>
               <Link 
-                className="sidedrawer-link sidenav-close" 
+                className="sidedrawer-link" 
                 href="#contactUs"
                 to="contactUs"
                 spy={true}
