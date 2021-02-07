@@ -1,16 +1,29 @@
 import React from "react"
-import bgImage from "../../img/slider/1_.jpg"
-import { ScrollAnimation } from 'react-animate-on-scroll'
-
+import mainLogo from "../../img/logo/index_2.png"
+import { Link } from 'react-scroll'
 import classes from './Styled.module.css';
 
 export default function Styled () {
   return (
-    <div className={classes.Background} style={{ padding: '70px' }}>
+    <div className={classes.Background}>
       <div className="container">
-        <div>
-          <h1 className="white-text">Bonfire<span className="teal-text text-lighten-2">Apps</span></h1>
+        
+        <div className={classes.HelloBox.concat(' ', "white-text")}>
+          <img src={mainLogo} alt="logo" style={{ width: '50px' }}/>
+          <h1 className="teal-text">BonfireApps</h1>
+          <h5>Flaming passion in creating the future</h5>
+          <h5>Fast, inteligent, attractive apps for you</h5>
+          <Link 
+            href="#aboutUs"
+            to="aboutUs"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          ><i className="medium material-icons teal-text">arrow_downward</i>
+          </Link>
         </div>
+        
       </div>
     </div>
   );

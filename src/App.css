@@ -182,7 +182,7 @@ form a.btn:hover {
   .tabs .tab a {
     font-size: 15px !important;
   }
-  h5 {
+  h5.tech-title {
     font-size: 14px !important;
   }
   img.tech-img {
