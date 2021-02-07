@@ -19,10 +19,10 @@ function App() {
     <div className="App">
       <Navigation />
       <Styled />
-      <Whoweare />
+      <Technologies />
+      {/* <Whoweare /> */}
       <Industries />
       <ContactUs />
-      <Technologies />
       {/* <ScrollButton /> */}
       {/* <Services_slider />
       <Web_development />

@@ -13,8 +13,8 @@ export default function Styled () {
           <h5>Flaming passion in creating the future</h5>
           <h5>Fast, inteligent, attractive apps for you</h5>
           <Link 
-            href="#aboutUs"
-            to="aboutUs"
+            href="#technologies"
+            to="technologies"
             spy={true}
             smooth={true}
             offset={-70}

@@ -9,7 +9,7 @@ export default function Industries() {
   
   const industriesList = industries.map(industry => {
     return  <div className="col s12 l6">
-              <div className="card teal darken-1" style={{ background: 'url:({industry.imgUrl})' }}>
+              <div className="card grey darken-4" style={{ background: 'url:({industry.imgUrl})' }}>
                 <div className={"card-content white-text"}>
                   <div className="card-image">
                     <img src={industry.imgUrl} alt={industry.title} /> 
@@ -23,7 +23,7 @@ export default function Industries() {
   });
 
   return (
-    <div id="industries" className="grey darken-4" style={{padding: '20px 0'}}>
+    <div id="industries" className="teal block">
       <div className="container">
         <ScrollAnimation animateIn="fadeIn">
           <h3 className="white-text">Industries</h3>

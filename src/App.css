@@ -1,3 +1,18 @@
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
 .App {
   text-align: center;
   font-family: "Roboto";
@@ -12,25 +27,14 @@ p {
   font-size: 20px;
 }
 
-/* .holder {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
+.block {
+  padding: 5vh 0;
 }
 
-.holder img {
-  vertical-align: middle;
+h1.block-title {
+  padding: 5vh 0;
+  font-size: 5rem;
 }
-
-.holder #navigation {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-} */
 
 nav.main-nav {
   background: rgba(0, 0, 0, 0);
@@ -136,16 +140,16 @@ form a.btn:hover {
 } /*Color of underline*/
 
 .tech-list {
-  padding: 30px 0 !important;
+  padding: 20px 0 !important;
 }
 
 .tech-block {
-  padding: 30px 30px !important;
+  padding: 10px 30px !important;
 }
 
 img.tech-img {
-  width: 65px;
-  height: 65px;
+  width: 70px;
+  height: 70px;
   padding: 2%;
 }
 
@@ -155,10 +159,15 @@ img.tech-img {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   .display-4 {
     font-size: 10px;
     color: blue;
+  }
+
+  h1.block-title {
+    padding: 3.5vh 0;
+    font-size: 3rem;
   }
 
   .tabs .tab a {
@@ -168,25 +177,69 @@ img.tech-img {
     font-size: 1.1rem !important;
   }
   img.tech-img {
-    width: 40px !important;
-    height: 40px;
+    width: 35px !important;
+    height: 35px;
   }
   .tech-list {
     padding: 20px 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 700px) and (max-width: 980px) {
+  h1.block-title {
+    font-size: 4rem !important;
+  }
+
+  h5.tech-title {
+    font-size: 1.3rem;
+  }
+  img.tech-img {
+    width: 38px;
+    height: 38px;
+  }
+  .tabs .tab a {
+    font-size: 1.5rem !important;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 980px) and (max-width: 1200px) {
+  .block {
+    padding: 1.5vh 0 !important;
+  }
+
+  h1.block-title {
+    font-size: 2.5rem;
+  }
+
+  h5.tech-title {
+    font-size: 0.9rem !important;
+  }
+  img.tech-img {
+    width: 35px;
+    height: 35px;
+  }
+  .tabs .tab a {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .block {
+    padding: 4vh 0;
+  }
+
+  h1.block-title {
+    font-size: 3rem !important;
+  }
+
+  h5.tech-title {
+    font-size: 1.2rem !important;
+  }
+  img.tech-img {
+    width: 40px;
+    height: 40px;
+  }
+  .tabs .tab a {
+    font-size: 1.5rem;
+  }
 }

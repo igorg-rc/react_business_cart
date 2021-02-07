@@ -5,7 +5,7 @@ export const technologies = {
     {"title":"Material UI","imgUrl":"img/layout/icons/teal/frontend/materialui.png"},
     {"title":"Bootstrap","imgUrl":"img/layout/icons/teal/frontend/bootstrap.png"},
     {"title":"jQuery","imgUrl":"img/layout/icons/teal/frontend/jquery.png"},
-    {"title":"Materialize css","imgUrl":"img/layout/icons/teal/frontend/materializecss.png"},
+    {"title":"Materialize","imgUrl":"img/layout/icons/teal/frontend/materializecss.png"},
     {"title":"Grunt","imgUrl":"img/layout/icons/teal/frontend/grunt.png"},
     {"title":"Sass","imgUrl":"img/layout/icons/teal/frontend/sass.png"}
   ], 
