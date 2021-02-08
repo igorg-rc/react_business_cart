@@ -56,7 +56,6 @@ footer ul li a {
   position: relative;
 }
 ul#mobile-demo li a:hover,
-footer ul li a:hover,
 footer ul li a:hover {
   color: #e0f2f1;
   transition: all 0.3s ease-in-out;

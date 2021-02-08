@@ -13,13 +13,41 @@ export default function Footer() {
                 <h5 className="white-text left-align">Call us</h5>
                 <div className={classes.Links}>
                   <ul>
-                    <li><a className="teal-text text-lighten-2" href="#!">Telegram</a></li>
-                    <li><a className="teal-text text-lighten-2" href="#!">Viber</a></li>
-                    <li><a className="teal-text text-lighten-2" href="#!">Skype</a></li>
+                    <li>
+                      <Link 
+                        href="#telegram"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >Telegram
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        href="#viber"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >Viber
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        href="#skype"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="links"
+                      >Skype
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
-              <div className="col right s12 l2">
+              <div className="col right s12 l2 right">
                 <h5 className="white-text left-align">Links</h5>
                 <div className={classes.Links}>
                   <ul>
