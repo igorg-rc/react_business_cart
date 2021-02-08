@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   margin-bottom: 2.5vh;
+  overflow: hidden;
 }
 
 .Img {
@@ -9,6 +10,7 @@
   width: 100%;
   height: auto;
   margin: 0;
+  transition: 0.5s all ease-in-out;
 }
 
 .Overlay {
@@ -26,6 +28,10 @@
 
 .Holder:hover .Overlay {
   opacity: 1;
+}
+
+.Holder:hover .Img {
+  transform: scale(1.2);
 }
 
 .OverlayText {
