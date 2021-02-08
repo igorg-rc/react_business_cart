@@ -46,7 +46,7 @@ export default class Technologies extends Component {
         <ScrollAnimation animateIn="fadeIn">
             <h1 className="block-title">Technologies</h1>
             <ul class="tabs grey darken-4 teal-text row">
-              <li class="tab col s3"><a href="#frontend">Frondend</a></li>
+              <li class="tab col s3"><a href="#frontend">Frontend</a></li>
               <li class="tab col s3"><a href="#backend">Backend</a></li>
               <li class="tab col s3"><a href="#tools">Tools</a></li>
               <li class="tab col s3"><a href="#api">APi</a></li>
