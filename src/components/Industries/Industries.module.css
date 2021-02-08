@@ -1,17 +1,48 @@
 .Holder {
   position: relative;
-  text-align: center;
-  color: white;
-  padding-bottom: 5%;
+  width: 100%;
+  margin-bottom: 2.5vh;
 }
 
-.ImgText {
-  position: absolute;
+.Img {
+  display: block;
   width: 100%;
-  bottom: 20%;
-  right: 0px;
-  background: rgba(0, 0, 0, 0.5);
+  height: auto;
+  margin: 0;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgb(0, 121, 107, 0.8);
+}
+
+.Holder:hover .Overlay {
+  opacity: 1;
+}
+
+.OverlayText {
   color: white;
-  /* padding-left: 20px;
-  padding-right: 20px; */
+  font-size: 1.5rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (min-width: 980px) and (max-width: 1200px) {
+  .OverlayText {
+    font-size: 1rem;
+    top: 35%;
+  }
 }

@@ -41,29 +41,7 @@ export default class Navigation extends Component {
                   <a href="#!" className="left">BonfireApps</a>
                   <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                   <ul class="right hide-on-med-and-down sidedrawer">
-                    <li>
-                      <Link 
-                        href="#aboutUs"
-                        to="aboutUs"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                      >About us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link 
-                        href="#aboutUs"
-                        to="aboutUs"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                      >Industries
-                      </Link>
-                    </li>
-                    <li>
+                  <li>
                       <Link 
                         href="#technologies"
                         to="technologies"
@@ -72,6 +50,17 @@ export default class Navigation extends Component {
                         offset={-70}
                         duration={500}
                       >Technologies
+                      </Link>
+                    </li>
+                    <li>
+                      <Link 
+                        href="#industries"
+                        to="industries"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >Industries
                       </Link>
                     </li>
                     <li>
@@ -132,7 +121,7 @@ export default class Navigation extends Component {
             </li>
             <li>
               <Link 
-                // className="sidedrawer-link" 
+                className="sidedrawer-link" 
                 href="#contactUs"
                 to="contactUs"
                 spy={true}

@@ -1,42 +1,47 @@
 export const industries = [
   {
-    title: 'eCommerse',
-    body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/eCommerse_.jpg'
-  },
-  {
     title: 'Booking',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/booking_.jpg'
+    imgUrl: 'img/layout/industries/original/booking_10.jpg'
   },
   {
-    title: 'Healthcare',
+    title: 'CRM',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/healthcare_.jpg'
+    imgUrl: 'img/layout/industries/original/crm_4.jpg'
+  },
+  {
+    title: 'eCommerce',
+    body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+    imgUrl: 'img/layout/industries/original/ecommerce_8.jpg'
   },
   {
     title: 'Education',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/education_.jpg'
+    imgUrl: 'img/layout/industries/original/education_6.jpg'
   },
   {
     title: 'Finance & Trading',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/finance_trading_.jpg'
+    imgUrl: 'img/layout/industries/original/finance_trading_2.jpg'
   },
   {
-    title: 'Influence',
+    title: 'Healhcare',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/influence_.jpg'
+    imgUrl: 'img/layout/industries/original/healthcare_3.jpg'
   },
   {
     title: 'Real estate',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/real_estate_.jpg'
+    imgUrl: 'img/layout/industries/original/real_estate_4.jpg'
   },
   {
-    title: 'CRM & Managment',
+    title: 'Social media',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/CRM_EM_.jpg'
+    imgUrl: 'img/layout/industries/original/soc_media_5.jpg'
+  },
+  {
+    title: 'Statistics',
+    body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+    imgUrl: 'img/layout/industries/original/statistics_1.jpg'
   }
 ];
