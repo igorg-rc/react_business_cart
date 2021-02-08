@@ -28,6 +28,7 @@
 
 .Holder:hover .Overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .Holder:hover .Img {
