@@ -172,6 +172,13 @@ img.tech-img {
     color: blue;
   }
 
+  footer h5,
+  footer p,
+  footer ul,
+  footer ul li {
+    text-align: center !important;
+  }
+
   h1.block-title {
     padding: 3.5vh 0;
     font-size: 3rem;
