@@ -2,25 +2,3 @@
   position: absolute;
   z-index: 999999999;
 }
-
-/* .ImgContainer {
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: inherit;
-}
-
-.Img {
-  object-fit: cover;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-} */
-
-/* @media (min-width: 600px) {
-  .ImgContainer {
-    height: 100vh;
-  }
-} */

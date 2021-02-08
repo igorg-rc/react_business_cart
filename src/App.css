@@ -46,12 +46,20 @@ nav.main-nav {
   box-shadow: none;
 }
 
-ul#mobile-demo li a {
-  color: #26a69a;
+footer ul li {
+  text-align: left;
+}
+
+ul#mobile-demo li a,
+footer ul li a {
+  color: #4db6ac;
   position: relative;
 }
-ul#mobile-demo li a:hover {
+ul#mobile-demo li a:hover,
+footer ul li a:hover,
+footer ul li a:hover {
   color: #e0f2f1;
+  transition: all 0.3s ease-in-out;
 }
 
 ul#mobile-demo li a:before {

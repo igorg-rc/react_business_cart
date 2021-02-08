@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
 import M from 'materialize-css/dist/js/materialize.min.js'
 
-import { technologies } from './TechnologiesData';
-import classes from './Technologies.module.css'
+import { technologies } from './TechnologiesData'
 
 export default class Technologies extends Component {
 

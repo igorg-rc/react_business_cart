@@ -21,7 +21,7 @@ export default function ContactUs() {
         
       </ScrollAnimation>
       <Container>
-        <h1 className="teal-text text-lighten-5 block-title">Get in touch</h1>
+        <h2 className="teal-text text-lighten-5">Get in touch</h2>
         <div className="row">
           <form>
             <div className="input-field s12 teal-text text-lighten-4">

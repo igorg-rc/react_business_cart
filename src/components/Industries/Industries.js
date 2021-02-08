@@ -28,19 +28,5 @@ export default function Industries() {
           </div>
       </ScrollAnimation>
     </div>
-      
-    
   )
 }
-
-
-// return  <div className="col s12 l4">
-// <div className={classes.Holder}>
-//   <img src={industry.imgUrl} alt="Avatar" class={classes.Img} />
-//   <div className={classes.Overlay}>
-//     <div className={classes.OverlayText}>
-//       <h5>{industry.title}</h5>
-//     </div>
-//   </div>
-// </div> 
-// </div>

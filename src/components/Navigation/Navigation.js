@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll'
 import M from 'materialize-css/dist/js/materialize.min.js'
-import { ScrollAnimation } from 'react-animate-on-scroll'
 
 import classes from './Navigation.module.css'
-import logo from '../../img/logo/index_2_title.png'
 
 export default class Navigation extends Component {
   componentDidMount() {
@@ -85,8 +83,8 @@ export default class Navigation extends Component {
               <span className="hover hover-3"></span>
               <Link 
                 className="sidedrawer-link"
-                href="#aboutUs"
-                to="aboutUs"
+                href="#technologies"
+                to="technologies"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -105,18 +103,6 @@ export default class Navigation extends Component {
                 offset={-70}
                 duration={500}
               >Industries
-              </Link>
-            </li>
-            <li>
-              <Link 
-                className="sidedrawer-link" 
-                href="#technologies"
-                to="technologies"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >Technologies
               </Link>
             </li>
             <li>
