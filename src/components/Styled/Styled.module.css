@@ -33,6 +33,7 @@
 
 .HelloBox i:hover {
   scale: 110%;
+  color: #ffe0b2 !important;
   transition: 0.5s;
 }
 

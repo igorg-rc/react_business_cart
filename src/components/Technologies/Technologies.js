@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
-import { Parallax } from 'react-parallax'
 import M from 'materialize-css/dist/js/materialize.min.js'
 
 import { technologies } from './TechnologiesData';
@@ -45,7 +44,8 @@ export default class Technologies extends Component {
     return (
       <div id="technologies" className="grey darken-4 white-text block">
         <div className="container">
-            <h1 className="block-title">Techonologies</h1>
+        <ScrollAnimation animateIn="fadeIn">
+            <h1 className="block-title">Technologies</h1>
             <ul class="tabs grey darken-4 teal-text row">
               <li class="tab col s3"><a href="#frontend">Frondend</a></li>
               <li class="tab col s3"><a href="#backend">Backend</a></li>
@@ -72,7 +72,7 @@ export default class Technologies extends Component {
                 {apiList}
               </div>
             </div>
-          
+        </ScrollAnimation>
         </div>
       </div>
     )

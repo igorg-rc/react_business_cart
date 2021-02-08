@@ -28,12 +28,16 @@ p {
 }
 
 .block {
-  padding: 5vh 0;
+  padding: 5vh 0 !important;
 }
 
 h1.block-title {
   padding: 5vh 0;
   font-size: 5rem;
+}
+
+h5.tech-title {
+  font-size: 1.4rem;
 }
 
 nav.main-nav {
@@ -115,10 +119,6 @@ form a.btn:hover {
 }
 
 /* Technologies */
-#technologies {
-  padding: 50px 0;
-}
-
 .tabs .tab a {
   color: #009688 !important;
   font-weight: 900;
@@ -144,7 +144,7 @@ form a.btn:hover {
 }
 
 .tech-block {
-  padding: 10px 30px !important;
+  padding: 20px 30px !important;
 }
 
 img.tech-img {
@@ -225,7 +225,7 @@ img.tech-img {
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   .block {
-    padding: 4vh 0;
+    padding: 2vh 0 !important;
   }
 
   h1.block-title {

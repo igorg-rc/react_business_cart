@@ -132,13 +132,13 @@ export default class Navigation extends Component {
             </li>
             <li>
               <Link 
-                className="sidedrawer-link" 
+                // className="sidedrawer-link" 
                 href="#contactUs"
                 to="contactUs"
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500}
+                duration={300}
               >Contact us
               </Link>
             </li>
