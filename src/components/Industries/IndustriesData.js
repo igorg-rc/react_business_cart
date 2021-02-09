@@ -2,7 +2,7 @@ export const industries = [
   {
     title: 'Booking',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/original/booking_10.jpg'
+    imgUrl: 'img/layout/industries/original/booking_1.jpg'
   },
   {
     title: 'CRM',
@@ -17,7 +17,7 @@ export const industries = [
   {
     title: 'Education',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/original/education_6.jpg'
+    imgUrl: 'img/layout/industries/original/education_1.jpg'
   },
   {
     title: 'Finance & Trading',
