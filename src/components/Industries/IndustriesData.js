@@ -10,10 +10,11 @@ export const industries = [
     imgUrl: 'img/layout/industries/original/crm_4.jpg'
   },
   {
-    title: 'eCommerce',
+    title: 'Real estate',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/original/ecommerce_8.jpg'
+    imgUrl: 'img/layout/industries/original/real_estate_4.jpg'
   },
+
   {
     title: 'Education',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
@@ -30,10 +31,11 @@ export const industries = [
     imgUrl: 'img/layout/industries/original/healthcare_3.jpg'
   },
   {
-    title: 'Real estate',
+    title: 'eCommerce',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-    imgUrl: 'img/layout/industries/original/real_estate_4.jpg'
+    imgUrl: 'img/layout/industries/original/ecommerce_8.jpg'
   },
+  
   {
     title: 'Social media',
     body: 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
