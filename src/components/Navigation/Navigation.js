@@ -9,9 +9,16 @@ export default class Navigation extends Component {
     
   document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelector('.sidenav');
-    let instance = M.Sidenav.init(elems, {edge: 'right', outDuration: 500});
+    let instance = M.Sidenav.init(elems, {
+      edge: 'left', 
+      menuWidth: 200,
+      inDuration: 300,
+      outDuration: 500,
+      draggable: true
+    });
   });
     
+
     window.addEventListener("scroll", this.handleScroll);
   }
 
@@ -89,7 +96,7 @@ export default class Navigation extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
-              >About us
+              >Technologies
               </Link>
             </li>
             <li>
