@@ -27,13 +27,33 @@ p {
   font-size: 20px;
 }
 
+/* Blocks height properties */
 .block {
-  padding: 5vh 0 !important;
+  padding: 1vh 0 !important;
+  height: 100vh !important;
+}
+
+#technologies,
+#industries {
+  height: 100vh !important;
+}
+
+#contact-form {
+  /* height: 40vh !important; */
+}
+
+#map {
+  padding: 1vh 0 !important;
 }
 
 h1.block-title {
-  padding: 5vh 0;
+  padding: 2vh 0;
   font-size: 5rem;
+}
+
+h2.block-subtitle {
+  padding: 2vh 0;
+  font-size: 3.5rem;
 }
 
 h5.tech-title {
@@ -80,9 +100,10 @@ ul#mobile-demo li a:hover:before {
 }
 
 iframe {
-  height: 50rem;
-  width: 100%;
-  background-color: #c6c7af;
+  padding-top: 2vh;
+  height: 65vh;
+  width: 100% !important;
+  /* background-color: #c6c7af; */
 }
 
 .input-field input[type="text"],
@@ -160,6 +181,11 @@ img.tech-img {
   padding: 2%;
 }
 
+/* Contact us */
+.contact-section {
+  padding: 50px 0 100px 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -167,22 +193,36 @@ img.tech-img {
 }
 
 @media (max-width: 700px) {
+  h1.block-title {
+    padding: 0.5vh 0 !important;
+    font-size: 3.5rem;
+  }
+
+  h2.block-subtitle {
+    padding: 0.5vh 0 !important;
+    font-size: 2.5rem;
+  }
+
   .sidenav {
     width: 70% !important;
   }
 
-  h1.block-title {
-    padding: 3.5vh 0;
-    font-size: 3rem;
+  /* .block {
+    height: 100% !important;
+    padding: 30vh;
   }
 
-  /* Change tabs view on mobile screen  */
-  /* .tabs {
- 
-  }
-  ul.tabs li.tab a {
-  
+  #contactUs {
+    height: 40vh !important;
   } */
+
+  #technologies {
+    height: 100% !important;
+  }
+
+  #industries {
+    height: 100% !important;
+  }
 
   .tabs .tab a {
     font-size: 0.8rem !important;
@@ -201,22 +241,59 @@ img.tech-img {
     padding: 20px 0;
   }
 
+  /* form a.btn {
+    width: 100%;
+  } */
+
   footer h5,
   footer p,
   footer ul,
   footer ul li {
     text-align: center !important;
   }
+
+  #footer-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 980px) {
   h1.block-title {
-    font-size: 4rem !important;
+    font-size: 4rem;
+  }
+
+  h2.block-subtitle {
+    padding: 0.5vh 0 !important;
+    font-size: 3rem;
   }
 
   h5.tech-title {
     font-size: 1.3rem;
   }
+
+  h1.block-title {
+    padding: 0.5vh 0 !important;
+    font-size: 3.5rem;
+  }
+
+  h2.block-subtitle {
+    padding: 0.5vh 0 !important;
+    font-size: 2.5rem;
+  }
+
+  .sidenav {
+    width: 70% !important;
+  }
+
+  #technologies {
+    height: 100% !important;
+  }
+
+  #industries {
+    height: 100% !important;
+  }
+
   img.tech-img {
     width: 38px;
     height: 38px;
@@ -224,6 +301,10 @@ img.tech-img {
   .tabs .tab a {
     font-size: 1.5rem !important;
   }
+
+  /* footer p {
+    line-height: 0.7;
+  } */
 }
 
 @media (min-width: 980px) and (max-width: 1200px) {
@@ -266,4 +347,27 @@ img.tech-img {
   .tabs .tab a {
     font-size: 1.5rem;
   }
+
+  /* @media (max-width: 1200px) {
+    .block {
+      padding: 1vh 0 !important;
+      min-height: 100% !important;
+    }
+
+    #technologies {
+      height: 100% !important;
+      background-color: coral !important;
+    }
+
+    #industries {
+      height: 100% !important;
+    }
+    #contact-form {
+      height: 40vh !important;
+    }
+
+    #map {
+      padding: 1vh 0 !important;
+    }
+  } */
 }

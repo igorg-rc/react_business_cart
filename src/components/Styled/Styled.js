@@ -5,7 +5,7 @@ import classes from './Styled.module.css';
 
 export default function Styled () {
   return (
-    <div className={classes.Background}>
+    <div id="helloscreen" className={classes.Background}>
       <div className={classes.HelloBox.concat(' ', "white-text")}>
         <div className="container">  
           <img src={mainLogo} alt="logo" className={classes.LogoImage} />

@@ -6,6 +6,7 @@ import Technologies from './components/Technologies/Technologies';
 import Industries from './components/Industries/Industries';
 import ContactUs from './components/ContactUs/ContactUs';
 import Styled from './components/Styled/Styled';
+import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
 
 // import ScrollButton from './components/UIutils/ScrollButton/ScrollButton';
@@ -18,6 +19,7 @@ function App() {
       <Styled />
       <Technologies />
       <Industries />
+      <Map />
       <ContactUs />
       <Footer />
       {/* <ScrollButton /> */}

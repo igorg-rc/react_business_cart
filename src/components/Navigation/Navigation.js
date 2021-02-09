@@ -43,10 +43,19 @@ export default class Navigation extends Component {
             <nav className="main-nav">
               <div class="nav-wrapper">
                 <div className="container">
-                  <a href="#!" className="left">BonfireApps</a>
+                  <Link 
+                    href="#helloscreen"
+                    to="helloscreen"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={750}
+                    className="left"
+                  >BonfireApps
+                  </Link>
                   <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                   <ul class="right hide-on-med-and-down sidedrawer">
-                  <li>
+                    <li>
                       <Link 
                         href="#technologies"
                         to="technologies"
@@ -82,11 +91,24 @@ export default class Navigation extends Component {
                     </li>
                   </ul>
                 </div> 
-              </div>
-            </nav>
-          </div> 
+            </div>
+          </nav>
+        </div> 
           <ul class="sidenav grey darken-4" id="mobile-demo">
-            <li className="">
+            <li>
+              <span className="hover hover-3"></span>
+              <Link 
+                className="sidedrawer-link sidenav-close"
+                href="#helloscreen"
+                to="helloscreen"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >BonfireApps
+              </Link>
+            </li>
+            <li>
               <span className="hover hover-3"></span>
               <Link 
                 className="sidedrawer-link sidenav-close"
