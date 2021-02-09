@@ -6,7 +6,7 @@ import classes from './Footer.css'
 export default function Footer() {
   return (
     <div>
-      <footer className="grey darken-4">
+      <footer className="grey darken-4" style={{ padding: '5px 0' }}>
           <div className="container">
             <div class="row">
               <div className="col right s12 l2 right">

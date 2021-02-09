@@ -38,7 +38,7 @@ export default class Navigation extends Component {
   render() {
     return (
       <div className={classes.Holder}>
-        <div id="navigation">
+        <div id="navigation" className="sidenav-close">
           <div className="navbar-fixed">
             <nav className="main-nav">
               <div class="nav-wrapper">

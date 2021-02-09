@@ -168,7 +168,7 @@ img.tech-img {
 
 @media (max-width: 700px) {
   .sidenav {
-    width: 200px;
+    width: 70% !important;
   }
 
   h1.block-title {
