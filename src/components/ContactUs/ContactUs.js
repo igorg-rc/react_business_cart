@@ -6,7 +6,7 @@ import img from '../../img/dbs.png'
 
 export default function ContactUs() {
   return (
-    <div id="contactUs" className="teal white-text block">
+    <div className="teal white-text block">
       <div className="teal">
       <h1 className="block-title">Contact us</h1>
       <ScrollAnimation animateIn='fadeIn'>
@@ -22,7 +22,7 @@ export default function ContactUs() {
       </ScrollAnimation>
       <Container>
         <h2 className="teal-text text-lighten-5">Get in touch</h2>
-        <div className="row">
+        <div id="contactUs" className="row">
           <form>
             <div className="input-field s12 teal-text text-lighten-4">
               <input type="text" id="name" className="teal-text text-lighten-4" />
