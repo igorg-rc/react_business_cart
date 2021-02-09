@@ -38,7 +38,7 @@ export default class Navigation extends Component {
   render() {
     return (
       <div className={classes.Holder}>
-        <div id="navigation" className="sidenav-close">
+        <div id="navigation">
           <div className="navbar-fixed">
             <nav className="main-nav">
               <div class="nav-wrapper">
@@ -53,7 +53,7 @@ export default class Navigation extends Component {
                         spy={true}
                         smooth={true}
                         offset={-70}
-                        duration={500}
+                        duration={750}
                       >Technologies
                       </Link>
                     </li>
@@ -64,7 +64,7 @@ export default class Navigation extends Component {
                         spy={true}
                         smooth={true}
                         offset={-70}
-                        duration={500}
+                        duration={750}
                       >Industries
                       </Link>
                     </li>
@@ -75,7 +75,7 @@ export default class Navigation extends Component {
                         spy={true}
                         smooth={true}
                         offset={-70}
-                        duration={500}
+                        duration={750}
                         className="links"
                       >Contact us
                       </Link>

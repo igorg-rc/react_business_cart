@@ -176,6 +176,14 @@ img.tech-img {
     font-size: 3rem;
   }
 
+  /* Change tabs view on mobile screen  */
+  /* .tabs {
+ 
+  }
+  ul.tabs li.tab a {
+  
+  } */
+
   .tabs .tab a {
     font-size: 0.8rem !important;
   }

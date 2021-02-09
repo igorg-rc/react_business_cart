@@ -11,7 +11,7 @@ export default function Styled () {
           <img src={mainLogo} alt="logo" className={classes.LogoImage} />
           <h1>Bonfire<span className="teal-text">Apps</span></h1>
           <h5>Flaming passion in creating the future</h5>
-          <h5>Fast, inteligent, attractive apps for you</h5>
+          <h5>Fast, intelligent, attractive apps for you</h5>
           <Link 
             href="#technologies"
             to="technologies"
