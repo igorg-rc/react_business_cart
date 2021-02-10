@@ -260,6 +260,19 @@ footer {
     padding: 2vh 0;
   }
 
+  /* Align text on center by left side */
+  /* .wrapper {
+    float: left;
+    position: relative;
+    left: 50%;
+  }
+
+  .links {
+    float: left;
+    position: relative;
+    left: -50%;
+  } */
+
   #footer-content {
     display: flex !important;
     flex-direction: column-reverse !important;
@@ -269,7 +282,7 @@ footer {
   footer p,
   footer ul,
   footer ul li {
-    text-align: center !important;
+    text-align: left !important;
   }
 }
 
