@@ -5,7 +5,7 @@ import classes from './Footer.css'
 
 export default function Footer() {
   return (
-    <div>
+    <div className="grey darken-4">
       <footer className="grey darken-4">
           <div className="container">
             <div id="footer-content" class="row">

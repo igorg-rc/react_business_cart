@@ -30,12 +30,14 @@ p {
 /* Blocks height properties */
 .block {
   padding: 1vh 0 !important;
-  height: 100vh !important;
+  /* height: 100% !important; */
 }
 
 #technologies,
-#industries {
+#industries,
+#contactUs {
   height: 100vh !important;
+  /* padding: 5vh 0 !important; */
 }
 
 #contact-form {
@@ -43,16 +45,16 @@ p {
 }
 
 #map {
-  padding: 1vh 0 !important;
+  padding-top: 1vh;
 }
 
 h1.block-title {
-  padding: 2vh 0;
+  /* padding: 1vh 0; */
   font-size: 5rem;
 }
 
 h2.block-subtitle {
-  padding: 2vh 0;
+  padding: 0.5vh 0;
   font-size: 3.5rem;
 }
 
@@ -186,6 +188,11 @@ img.tech-img {
   padding: 50px 0 100px 0;
 }
 
+footer {
+  height: 100%;
+  padding: 1vh 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -216,13 +223,16 @@ img.tech-img {
     height: 40vh !important;
   } */
 
-  #technologies {
+  #technologies,
+  #industries,
+  #contactUs {
     height: 100% !important;
+    padding: 10vh 0;
   }
 
-  #industries {
-    height: 100% !important;
-  }
+  /* #contactUs {
+    height: 100vh !important;
+  } */
 
   .tabs .tab a {
     font-size: 0.8rem !important;
@@ -245,16 +255,34 @@ img.tech-img {
     width: 100%;
   } */
 
+  footer {
+    height: 100%;
+    padding: 2vh 0;
+  }
+
+  #footer-content {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
   footer h5,
   footer p,
   footer ul,
   footer ul li {
     text-align: center !important;
   }
+}
 
+@media (min-width: 600px) and (max-width: 700px) {
   #footer-content {
-    display: flex;
-    flex-direction: column-reverse;
+    display: inline !important;
+  }
+
+  footer h5,
+  footer p,
+  footer ul,
+  footer ul li {
+    text-align: left !important;
   }
 }
 
@@ -286,11 +314,9 @@ img.tech-img {
     width: 70% !important;
   }
 
-  #technologies {
-    height: 100% !important;
-  }
-
-  #industries {
+  #technologies,
+  #industries,
+  #contactUs {
     height: 100% !important;
   }
 
@@ -316,12 +342,20 @@ img.tech-img {
     font-size: 2.5rem;
   }
 
+  h2.block-subtitle {
+    font-size: 2rem;
+  }
+
   h5.tech-title {
     font-size: 0.9rem !important;
   }
   img.tech-img {
     width: 35px;
     height: 35px;
+  }
+
+  #industries {
+    height: 100% !important;
   }
   .tabs .tab a {
     font-size: 1.3rem !important;
