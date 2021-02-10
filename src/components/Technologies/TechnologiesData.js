@@ -20,21 +20,23 @@ export const technologies = {
     {"title":"GraphQL","imgUrl":"img/layout/icons/teal/tech/backend/graphql.png"}
   ],
   "tools": [
-    {"title":"Stripe","imgUrl":"img/layout/icons/teal/tech/tools/stripe.png"},
-    {"title":"Twitter","imgUrl":"img/layout/icons/teal/tech/tools/twitter.png"},
-    {"title":"Trello","imgUrl":"img/layout/icons/teal/tech/tools/trello.png"},
-    {"title":"Google maps","imgUrl":"img/layout/icons/teal/tech/tools/gmaps.png"},
-    {"title":"Spotify","imgUrl":"img/layout/icons/teal/tech/tools/spotify.png"},
     {"title":"Slack","imgUrl":"img/layout/icons/teal/tech/tools/slack.png"},
-    {"title":"Paypal","imgUrl":"img/layout/icons/teal/tech/tools/paypal.png"},
     {"title":"NPM","imgUrl":"img/layout/icons/teal/tech/tools/npm_.png"},
-    {"title":"MailChimp","imgUrl":"img/layout/icons/teal/tech/tools/mailchimp.png"},
-    {"title":"Linkedin","imgUrl":"img/layout/icons/teal/tech/tools/linkedin.png"},
-    {"title":"Google","imgUrl":"img/layout/icons/teal/tech/tools/google.png"},
-    {"title":"Instagram","imgUrl":"img/layout/icons/teal/tech/tools/instagram.png"},
     {"title":"Github","imgUrl":"img/layout/icons/teal/tech/tools/github.png"},
-    {"title":"Facebook","imgUrl":"img/layout/icons/teal/tech/tools/facebook.png"},
     {"title":"Docker","imgUrl":"img/layout/icons/teal/tech/tools/docker.png"},
-    {"title":"AWS","imgUrl":"img/layout/icons/teal/tech/tools/aws.png"}
+    {"title":"AWS","imgUrl":"img/layout/icons/teal/tech/tools/aws.png"},
+    {"title":"Trello","imgUrl":"img/layout/icons/teal/tech/tools/trello.png"},
+    {"title":"Jira","imgUrl":"img/layout/icons/teal/tech/tools/jira.png"},
+    {"title":"Webpack","imgUrl":"img/layout/icons/teal/tech/tools/webpack.png"}
+  ], 
+  "api": [
+    {"title":"Stripe","imgUrl":"img/layout/icons/teal/tech/api/stripe.png"},
+    {"title":"Twitter","imgUrl":"img/layout/icons/teal/tech/api/twitter.png"},
+    {"title":"Paypal","imgUrl":"img/layout/icons/teal/tech/api/paypal_.png"},
+    {"title":"Linkedin","imgUrl":"img/layout/icons/teal/tech/api/linkedin.png"},
+    {"title":"Google","imgUrl":"img/layout/icons/teal/tech/api/google.png"},
+    {"title":"Instagram","imgUrl":"img/layout/icons/teal/tech/api/instagram_.png"},
+    {"title":"Facebook","imgUrl":"img/layout/icons/teal/tech/api/facebook.png"},
+    {"title":"Google maps","imgUrl":"img/layout/icons/teal/tech/api/gmaps.png"}
   ]
 };

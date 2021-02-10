@@ -230,9 +230,10 @@ footer {
     padding: 10vh 0;
   }
 
-  /* #contactUs {
-    height: 100vh !important;
-  } */
+  #technologies,
+  #contactUs {
+    padding-top: 50vh !important;
+  }
 
   .tabs .tab a {
     font-size: 0.8rem !important;
@@ -260,29 +261,21 @@ footer {
     padding: 2vh 0;
   }
 
-  /* Align text on center by left side */
-  /* .wrapper {
-    float: left;
-    position: relative;
-    left: 50%;
-  }
-
-  .links {
-    float: left;
-    position: relative;
-    left: -50%;
-  } */
-
   #footer-content {
     display: flex !important;
     flex-direction: column-reverse !important;
   }
 
-  footer h5,
-  footer p,
-  footer ul,
-  footer ul li {
-    text-align: left !important;
+  .wrapper_links h5,
+  .wrapper_links ul li,
+  #copyright h5,
+  #copyright p {
+    text-align: center !important;
+    left: 60% !important;
+  }
+
+  .wrapper_links li img {
+    display: none;
   }
 }
 

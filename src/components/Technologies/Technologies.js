@@ -13,21 +13,28 @@ export default class Technologies extends Component {
   
   render() {
     const frontendList = technologies.frontend.map(technology => {
-      return  <div className="col s6 m4 valign-wrapper tech-block">
+      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
                 <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const backendList = technologies.backend.map(technology => {
-      return  <div className="col s6 m4 valign-wrapper tech-block">
+      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
                 <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const toolsList = technologies.tools.map(technology => {
-      return  <div className="col s6 m4 valign-wrapper tech-block">
+      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
+                <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
+                <h5 className="tech-title center-align">{technology.title}</h5>
+              </div>
+    });
+
+    const apisList = technologies.api.map(technology => {
+      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
                 <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
@@ -40,9 +47,10 @@ export default class Technologies extends Component {
           <ScrollAnimation animateIn="fadeIn">
               <h1 className="block-title">Technologies</h1>
               <ul class="tabs grey darken-4 teal-text row">
-                <li class="tab col s4"><a href="#frontend">Frontend</a></li>
-                <li class="tab col s4"><a href="#backend">Backend</a></li>
-                <li class="tab col s4"><a href="#tools">Tools</a></li>
+                <li class="tab col s3"><a href="#frontend">Frontend</a></li>
+                <li class="tab col s3"><a href="#backend">Backend</a></li>
+                <li class="tab col s3"><a href="#tools">Tools</a></li>
+                <li class="tab col s3"><a href="#api-list">API</a></li>
               </ul>
               <div id="frontend" className="tech-list">
                 <div className="row">
@@ -57,6 +65,11 @@ export default class Technologies extends Component {
               <div id="tools" className="tech-list">
                 <div className="row">
                   {toolsList}
+                </div>
+              </div>
+              <div id="api-list" className="tech-list">
+                <div className="row">
+                  {apisList}
                 </div>
               </div>
           </ScrollAnimation>

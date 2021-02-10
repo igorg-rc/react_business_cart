@@ -12,7 +12,6 @@ export default function ContactUs() {
         <ScrollAnimation animateIn="fadeIn">
           <h1 className="block-title">Contact us</h1>
           <div id="contact-form">
-          <h2 className="teal-text text-lighten-5 block-subtitle">Get in touch</h2>
           <form>
             <div className="input-field s12 teal-text text-lighten-4">
               <input type="text" id="name" className="teal-text text-lighten-4" />
