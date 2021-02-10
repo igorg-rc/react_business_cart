@@ -45,33 +45,35 @@ export default class Technologies extends Component {
         <div id="technologies" className="grey darken-4 white-text block">
           <div className="container">
           <ScrollAnimation animateIn="fadeIn">
-              <h1 className="block-title">Technologies</h1>
-              <ul class="tabs grey darken-4 teal-text row">
-                <li class="tab col s3"><a href="#frontend">Frontend</a></li>
-                <li class="tab col s3"><a href="#backend">Backend</a></li>
-                <li class="tab col s3"><a href="#tools">Tools</a></li>
-                <li class="tab col s3"><a href="#api-list">API</a></li>
-              </ul>
-              <div id="frontend" className="tech-list">
-                <div className="row">
-                  {frontendList}
+            <h1 className="block-title">Technologies</h1>
+            <section id="technologies-content">
+            <ul class="tabs grey darken-4 teal-text row">
+                  <li class="tab col s3"><a href="#frontend">Frontend</a></li>
+                  <li class="tab col s3"><a href="#backend">Backend</a></li>
+                  <li class="tab col s3"><a href="#tools">Tools</a></li>
+                  <li class="tab col s3"><a href="#api-list">API</a></li>
+                </ul>
+                <div id="frontend" className="tech-list">
+                  <div className="row">
+                    {frontendList}
+                  </div>
                 </div>
-              </div>
-              <div id="backend" className="tech-list">
-                <div className="row">
-                  {backendList}
+                <div id="backend" className="tech-list">
+                  <div className="row">
+                    {backendList}
+                  </div>
                 </div>
-              </div>
-              <div id="tools" className="tech-list">
-                <div className="row">
-                  {toolsList}
+                <div id="tools" className="tech-list">
+                  <div className="row">
+                    {toolsList}
+                  </div>
                 </div>
-              </div>
-              <div id="api-list" className="tech-list">
-                <div className="row">
-                  {apisList}
+                <div id="api-list" className="tech-list">
+                  <div className="row">
+                    {apisList}
+                  </div>
                 </div>
-              </div>
+            </section>
           </ScrollAnimation>
           </div>
         </div>

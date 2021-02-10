@@ -35,14 +35,17 @@ p {
 
 #technologies,
 #industries,
-#contactUs,
-#map {
+#contactUs {
   height: 100vh !important;
   padding: 20vh 0;
 }
 
 #technologies {
   padding-top: 25vh !important;
+}
+
+#technologies-content {
+  padding-top: 5vh !important;
 }
 
 #contact-form {
@@ -148,11 +151,6 @@ form a.btn:hover {
   color: #009688 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 /* Technologies */
 .tabs .tab a {
   color: #009688 !important;
@@ -236,12 +234,14 @@ footer {
   }
 
   #technologies,
-  #contactUs {
-    padding-top: 50vh !important;
+  #industries,
+  #contactUs,
+  #map {
+    padding-top: 10vh !important;
   }
 
   .tabs .tab a {
-    font-size: 0.8rem !important;
+    font-size: 0.9rem !important;
   }
 
   h5.tech-title {
@@ -325,11 +325,11 @@ footer {
     width: 70% !important;
   }
 
-  #technologies,
+  /* #technologies,
   #industries,
   #contactUs {
     height: 100% !important;
-  }
+  } */
 
   img.tech-img {
     width: 38px;
