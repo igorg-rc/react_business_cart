@@ -272,11 +272,11 @@ footer {
   }
 
   .wrapper_links h5,
-  .wrapper_links ul li,
+  .wrapper_links ul li a,
   #copyright h5,
   #copyright p {
     text-align: center !important;
-    left: 60% !important;
+    /* left: 42% !important; */
   }
 
   .wrapper_links li img {
@@ -293,7 +293,7 @@ footer {
   footer p,
   footer ul,
   footer ul li {
-    text-align: left !important;
+    text-align: left;
   }
 }
 
