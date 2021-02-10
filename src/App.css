@@ -35,9 +35,14 @@ p {
 
 #technologies,
 #industries,
-#contactUs {
+#contactUs,
+#map {
   height: 100vh !important;
-  /* padding: 5vh 0 !important; */
+  padding: 20vh 0;
+}
+
+#technologies {
+  padding-top: 25vh !important;
 }
 
 #contact-form {
@@ -45,7 +50,7 @@ p {
 }
 
 #map {
-  padding-top: 1vh;
+  padding-top: 30vh;
 }
 
 h1.block-title {
@@ -103,7 +108,7 @@ ul#mobile-demo li a:hover:before {
 
 iframe {
   padding-top: 2vh;
-  height: 65vh;
+  height: 60vh;
   width: 100% !important;
   /* background-color: #c6c7af; */
 }
