@@ -7,23 +7,21 @@ import { industries } from './IndustriesData'
 export default function Industries() {
   
   const industriesList = industries.map(industry => {
-    return  <div className="col s12 m6 l4 center-align">
-              <div className={classes.Holder}>
-                <img src={industry.imgUrl} alt={industry.title} className={classes.Img} />
-                <div>
-                  <h5 className={classes.LayerText}>{industry.title}</h5>
-                </div>
-                <div className={classes.Overlay}>
-                  <h5 className={classes.OverlayText}>{industry.title}</h5>
+    return    <div class="wrapper">
+                <div class="zoom-effect-container">
+                  <div class="image-card">
+                    <img src={industry.imgUrl} style={{ width: '100%' }} />
+                  </div>
                 </div>
               </div>
-            </div>
+            
   });
 
   return (
     <div id="industries" className="grey darken-4 block">
       <ScrollAnimation animateIn="fadeIn">
         <div className="container">
+          {industriesList}
           <h1 className="white-text block-title">Industries</h1>
           <div className="row">
             {industriesList}
