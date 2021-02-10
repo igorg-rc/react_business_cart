@@ -1,11 +1,4 @@
 .Img_messengers {
-  width: 15px;
-  margin-right: 3px;
-}
-
-@media (max-width: 700px) {
-  .Img_messengers {
-    height: 2rem;
-    width: 2rem;
-  }
+  width: 1rem;
+  margin-right: 0.3rem;
 }

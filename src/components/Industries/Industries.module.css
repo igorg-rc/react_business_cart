@@ -3,6 +3,7 @@
   width: 100%;
   margin-bottom: 2.5vh;
   overflow: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .Img {
@@ -29,12 +30,16 @@
 .Holder:hover .Overlay {
   opacity: 1;
   cursor: pointer;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
 
 .Holder:hover .LayerText {
   /* display: none; */
   /* visibility: hidden; */
+  display: inline-block;
   opacity: 0;
   transition: opacity 0.3s linear;
   -webkit-transform: opacity 0.3s linear;

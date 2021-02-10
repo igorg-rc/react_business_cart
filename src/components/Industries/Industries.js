@@ -23,12 +23,12 @@ export default function Industries() {
   return (
     <div id="industries" className="grey darken-4 block">
       <ScrollAnimation animateIn="fadeIn">
-          <div className="container">
-            <h1 className="white-text block-title">Industries</h1>
-            <div className="row">
-              {industriesList}
-            </div>
+        <div className="container">
+          <h1 className="white-text block-title">Industries</h1>
+          <div className="row">
+            {industriesList}
           </div>
+        </div>
       </ScrollAnimation>
     </div>
   )

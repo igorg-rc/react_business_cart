@@ -35,7 +35,7 @@ export const technologies = {
     {"title":"Paypal","imgUrl":"img/layout/icons/teal/tech/api/paypal_.png"},
     {"title":"Linkedin","imgUrl":"img/layout/icons/teal/tech/api/linkedin.png"},
     {"title":"Google","imgUrl":"img/layout/icons/teal/tech/api/google.png"},
-    {"title":"Instagram","imgUrl":"img/layout/icons/teal/tech/api/instagram_.png"},
+    {"title":"Instagram","imgUrl":"img/layout/icons/teal/tech/api/instagram.png"},
     {"title":"Facebook","imgUrl":"img/layout/icons/teal/tech/api/facebook.png"},
     {"title":"Google maps","imgUrl":"img/layout/icons/teal/tech/api/gmaps.png"}
   ]

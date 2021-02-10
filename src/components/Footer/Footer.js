@@ -7,16 +7,18 @@ import { contactPoints } from './FooterData'
 export default function Footer() {
   const messengers = contactPoints.messengers.map(messenger => {
     return  <li>
-              <img src={messenger.imgUrl} className={classes.Img_messengers} />
-              <Link 
-                href={`${'#messenger.title'}`}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="links"
-              >{messenger.title}
-              </Link>
+              <div className="valign-wrapper">
+                <img src={messenger.imgUrl} className={classes.Img_messengers} />
+                  <Link 
+                    href={`${'#messenger.title'}`}
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="links"
+                  >{messenger.title}
+                  </Link>
+              </div>
             </li>
   });
 
@@ -25,13 +27,13 @@ export default function Footer() {
       <footer className="grey darken-4">
           <div className="container">
             <div id="footer-content" class="row wrapper">
-              <div id="copyright" className="col s12 m7 l4 white-text left">
+              <div id="copyright" className="col s12 m7 l4 white-text left footer-item">
                 <h5 class="white-text left-align">Bonfire<span className="teal-text text-lighten-2">Apps</span></h5>
                 <p class="grey-text text-lighten-4 left-align">Make your future today. Let the bonfire outflame.</p>
                 <p className="left-align">&copy; 2021, BonfireApps. All rights reserved.</p>
               </div>
               <div className="wrapper_links">
-                <div className="col s12 m2 offset-m1 l3 offset-l1 links">
+                <div className="col s12 m2 offset-m1 l3 offset-l1 links footer-item">
                   <h5 className="white-text left-align">Links</h5>
                   <div >
                     <ul id="footer-links">
@@ -72,7 +74,7 @@ export default function Footer() {
                     </ul>
                   </div>
                 </div>
-                <div className="col s12 m2 l3 links">
+                <div className="col s12 m2 l3 links footer-item">
                   <h5 className="white-text left-align">Call us</h5>
                   <div>
                     <ul id="messenger-links">
