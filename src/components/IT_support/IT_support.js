@@ -6,28 +6,52 @@ import './IT_support.css'
   
 export default function IT_support() {
   const industriesList = industries.map(industry => {
-    return  <div class="zoom-effect-container">
-              <div class="image-card">
-                <img src={industry.imgUrl} />
-              </div>
-              <div className="overlay">
-                <h4 className="overlay-text">{industry.title}</h4>
-              </div>
-              <div>
-                <h4 className="layer-text">{industry.title}</h4>
+    return  <div className="col s12 m6 l4"> 
+              <div class="zoom-effect-container">
+                <div class="image-card">
+                  <img src={industry.imgUrl} />
+                </div>
+                <div className="overlay">
+                  <h4 className="overlay-text">{industry.title}</h4>
+                </div>
+                <div>
+                  <h4 className="layer-text">{industry.title}</h4>
+                </div>
               </div>
             </div>
   });
 
-  return (
-        <div className="container">
-          <div class="wrapper">
-            <div className="row">
-              <div className="col s12 m6 l4">
-                { industriesList }
+  const anotherList = industries.map(industry => {
+    return  <div class="zoom-effect-container">
+                <div class="image-card">
+                  <img src={industry.imgUrl} />
+                </div>
+                <div className="overlay">
+                  <h4 className="overlay-text">{industry.title}</h4>
+                </div>
+                <div>
+                  <h4 className="layer-text">{industry.title}</h4>
+                </div>
               </div>
+              
+            
+  });
+
+  return (
+        <>
+          <div className="wrapper_1">
+            <div className="row" style={{ paddingBottom: '20vh' }}>
+              { industriesList }
             </div>
           </div>
-        </div>
+
+
+          <div className="container">
+            <div className="wrapper_2">
+                { anotherList }
+            </div>
+          </div>
+        </>
+        
   )
 }
