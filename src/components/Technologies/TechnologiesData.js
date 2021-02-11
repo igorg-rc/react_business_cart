@@ -3,7 +3,7 @@ export const technologies = {
     {"title":"React js","imgUrl":"img/layout/icons/teal/tech/frontend/react.png"},
     {"title":"Javascript","imgUrl":"img/layout/icons/teal/tech/frontend/javascript.png"},
     {"title":"HTML 5","imgUrl":"img/layout/icons/teal/tech/frontend/html5.png"},
-    {"title":"Firefox extension","imgUrl":"img/layout/icons/teal/tech/frontend/firefox.png"},
+    {"title":"Extension","imgUrl":"img/layout/icons/teal/tech/frontend/firefox.png"},
     {"title":"Extension","imgUrl":"img/layout/icons/teal/tech/frontend/chrome_.png"},
     {"title":"Bootstrap","imgUrl":"img/layout/icons/teal/tech/frontend/bootstrap.png"},
     {"title":"jQuery","imgUrl":"img/layout/icons/teal/tech/frontend/jquery.png"},
