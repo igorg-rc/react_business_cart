@@ -24,4 +24,3 @@ yarn-error.log*
 
 
 #for purpose of deploy
-public/index.html
