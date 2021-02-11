@@ -10,11 +10,11 @@ export default function Industries() {
     return  <div className="col s12 m6 l4">
               <div className={classes.Holder}>
                 <img src={industry.imgUrl} alt={industry.title} className={classes.Img} />
-                <div className={classes.LayerText}>
-                  {industry.title}
+                <div>
+                  <h5 className={classes.LayerText}>{industry.title}</h5>
                 </div>
                 <div className={classes.Overlay}>
-                  <h4 className={classes.OverlayText}>{industry.title}</h4>
+                  <h5 className={classes.OverlayText}>{industry.title}</h5>
                 </div>
               </div>
             </div>
@@ -28,8 +28,11 @@ export default function Industries() {
           <div className="row">
             {industriesList}
           </div>
-        </div>
+
+
+                  </div>
       </div>
+
     </>
   )
 }

@@ -1,9 +1,8 @@
 .Holder {
   position: relative;
   width: 100%;
-  margin-bottom: 2.5vh;
   overflow: hidden;
-  /* -webkit-backface-visibility: hidden; */
+  -webkit-backface-visibility: hidden;
 }
 
 .Img {
@@ -38,8 +37,8 @@
 }
 
 .Holder:hover .LayerText {
-  /* display: none; */
-  /* visibility: hidden; */
+  display: none;
+  visibility: hidden;
   display: inline-block;
   opacity: 0;
   transition: opacity 0.3s linear;
@@ -70,16 +69,14 @@
 
 .LayerText {
   color: white;
-  padding: 1rem 1.3rem;
   font-size: 1.3rem;
+  padding: 0.5rem 1rem;
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 45%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  /* text-align: center; */
 }
 
 @media (min-width: 980px) and (max-width: 1200px) {
