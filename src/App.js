@@ -7,7 +7,6 @@ import ContactUs from './components/ContactUs/ContactUs';
 import Styled from './components/Styled/Styled';
 import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
-import IT_support from './components/IT_support/IT_support';
 
 // import ScrollButton from './components/UIutils/ScrollButton/ScrollButton';
 // import Whoweare from './components/Whoweare/Whoweare';
@@ -22,7 +21,6 @@ function App() {
       <Map />
       <ContactUs />
       <Footer />
-      {/* <IT_support /> */}
       {/* <ScrollButton /> */}
       {/* <Whoweare /> */}
       
