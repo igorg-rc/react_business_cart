@@ -1,5 +1,5 @@
 import React from "react"
-import mainLogo from "../../img/logo/index_2.png"
+import mainLogo from "../../img/logo/index1_square.png"
 import { Link } from 'react-scroll'
 import classes from './Styled.module.css';
 
