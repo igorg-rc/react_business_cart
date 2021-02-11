@@ -331,11 +331,15 @@ footer {
     width: 70% !important;
   }
 
-  /* #technologies,
+  #technologies,
   #industries,
   #contactUs {
     height: 100% !important;
-  } */
+  }
+
+  #map {
+    padding-top: 5vh;
+  }
 
   img.tech-img {
     width: 38px;

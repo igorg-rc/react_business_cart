@@ -13,28 +13,28 @@ export default class Technologies extends Component {
   
   render() {
     const frontendList = technologies.frontend.map(technology => {
-      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
+      return  <div className="col s6 l3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
                 <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const backendList = technologies.backend.map(technology => {
-      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
+      return  <div className="col s6 l3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
                 <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const toolsList = technologies.tools.map(technology => {
-      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
+      return  <div className="col s6 l3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
                 <h5 className="tech-title center-align">{technology.title}</h5>
               </div>
     });
 
     const apisList = technologies.api.map(technology => {
-      return  <div className="col s6 m4 l3 valign-wrapper tech-block">
+      return  <div className="col s6 l3 valign-wrapper tech-block">
                 <img className="tech-img" src={technology.imgUrl} alt={technology.title} />
                 <h5 className="tech-title center-align">{technology.title}</h5>
               </div>

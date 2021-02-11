@@ -28,9 +28,7 @@ export default function Industries() {
           <div className="row">
             {industriesList}
           </div>
-
-
-                  </div>
+        </div>
       </div>
 
     </>
