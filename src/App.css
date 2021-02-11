@@ -209,7 +209,7 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   h1.block-title {
     padding: 0.5vh 0 !important;
     font-size: 3.5rem;
@@ -242,9 +242,12 @@ footer {
 
   #technologies,
   #industries,
-  #contactUs,
-  #map {
+  #contactUs {
     padding-top: 10vh !important;
+  }
+
+  #map {
+    padding: 1.5vh 0;
   }
 
   .tabs .tab a {
@@ -291,16 +294,6 @@ footer {
 }
 
 @media (min-width: 600px) and (max-width: 750px) {
-  #footer-content {
-    display: inline !important;
-  }
-
-  footer h5,
-  footer p,
-  footer ul,
-  footer ul li {
-    text-align: left;
-  }
 }
 
 @media (min-width: 700px) and (max-width: 980px) {
@@ -403,26 +396,9 @@ footer {
     font-size: 1.5rem;
   }
 
-  /* @media (max-width: 1200px) {
-    .block {
-      padding: 1vh 0 !important;
-      min-height: 100% !important;
-    }
-
-    #technologies {
-      height: 100% !important;
-      background-color: coral !important;
-    }
-
+  @media (min-width: 980px) and (max-width: 993px) {
     #industries {
-      height: 100% !important;
+      padding-top: 20vh;
     }
-    #contact-form {
-      height: 40vh !important;
-    }
-
-    #map {
-      padding: 1vh 0 !important;
-    }
-  } */
+  }
 }
