@@ -7,18 +7,16 @@ import { contactPoints } from './FooterData'
 export default function Footer() {
   const messengers = contactPoints.messengers.map(messenger => {
     return  <li>
-              <div className="valign-wrapper">
-                <img src={messenger.imgUrl} className={classes.Img_messengers} />
-                  <Link 
-                    href={`${'#messenger.title'}`}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="links"
-                  >{messenger.title}
-                  </Link>
-              </div>
+              <img src={messenger.imgUrl} className={classes.Img_messengers} />
+              <Link 
+                href={`${'#messenger.title'}`}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="links"
+              >{messenger.title}
+              </Link>
             </li>
   });
 
@@ -33,10 +31,10 @@ export default function Footer() {
                 <p className="left-align">&copy; 2021, BonfireApps. All rights reserved.</p>
               </div>
               <div className="wrapper_links">
-                <div className="col s12 m2 offset-m1 l3 offset-l1 links footer-item">
+                <div className="col s12 m2 offset-m1 l3 offset-l1 footer-item">
                   <h5 className="white-text left-align">Links</h5>
-                  <div >
-                    <ul id="footer-links">
+                  <div id="footer-links">
+                    <ul>
                       <li>
                         <Link 
                           href="#technologies"
@@ -74,10 +72,10 @@ export default function Footer() {
                     </ul>
                   </div>
                 </div>
-                <div className="col s12 m2 l3 links footer-item">
+                <div className="col s12 m2 l3 footer-item">
                   <h5 className="white-text left-align">Call us</h5>
-                  <div>
-                    <ul id="messenger-links">
+                  <div id="messenger-links">
+                    <ul>
                       {messengers}
                     </ul>
                   </div>
