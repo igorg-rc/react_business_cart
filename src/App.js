@@ -22,7 +22,7 @@ function App() {
       <Map />
       <ContactUs />
       <Footer />
-      <IT_support />
+      {/* <IT_support /> */}
       {/* <ScrollButton /> */}
       {/* <Whoweare /> */}
       
